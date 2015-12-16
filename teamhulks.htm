@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>HULKs.de</title>
+    <meta charset="UTF-8" />
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,600" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="hulks.css" type="text/css" />
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div class="container">
+                <div class="logo"></div>
+                <nav>
+                    <ul>
+                        <li><a href="/">Aktuelles</a></li>
+                        <li><a href="/teamhulks.htm">Team HULKs</a></li>
+                        <li><a href="/robocup.htm">RoboCup</a></li>
+                        <li><a href="/unterstuetzer.htm">Unterstützer</a></li>
+                        <li><a href="/presse.htm">Presse</a></li>
+                        <li><a href="/kontakt.htm">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="farbklecks">
+            <div class="container">
+                <h1>Team HULKs</h1>
+            </div>
+        </div>
+        <section>
+            <div class="container">
+                <div class="col-6-10">
+                    <h2>Motion</h2>
+                    <p>Das Ressort Motion ist für die eigentlichen Bewegungsabläufe der Roboter zuständig. Dies beinhaltet die Implementierung neuer und Optimierung vorhandener Bewegungsabläufe, um zuvor geplante Spielstrategien möglichst effizient umsetzen zu können.</p>
+                    <p>Das Zusammenspiel aller 25 Aktoren der Roboter erlaubt die Umsetzung verschiedenster Bewegungen, dabei sind die wichtigsten das Laufen, Aufstehen und Schießen.</p>
+                    <p>Eine möglichst flüssige Laufbewegung ermöglicht im Spiel einen Zeitvorteil, den das Team nutzen kann. Sollte der Nao jedoch währenddessen oder durch Kollision mit anderen Robotern in eine instabile Position geraten,  die nicht mehr rechtzeitig durch eine Gegenbewegung abgefangen werden kann, muss er nach einem Fall schnell wieder aufstehen können um wieder am Spiel teilnehmen zu können. Ein anpassbarer, gezielter Schuß aufs Tor ermöglicht letztendlich, einen Sieg über andere Teams erreichen zu können.</p>
+                    <p>Für alle Bewegungsabläufe muss daher zuerst erkannt werden, in welcher Lage sich der Roboter befindet, um den Nao daraufhin durch geeignete Bewegungen möglichst effizient in die gewünschte Position zu bringen.</p>
+                </div><figure class="col-4-10 photo">
+                    <img src="photos/DSC_1336.JPG" />
+                </figure>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <figure class="col-4-10 photo">
+                    <img src="photos/DSC_1336.JPG" />
+                </figure><div class="col-6-10">
+                    <h2>Vision</h2>
+                    <p>Das Ressort Vision kümmert sich darum, möglichst viele Informationen aus den Bildern der Kameras im Kopf des Roboters zu gewinnen. Nur so kann in Erfahrung gebracht werden, was genau auf dem Spielfeld geschieht.</p>
+                    <p>Ein wichtiger Entwicklungsschwerpunkt ist hierbei die Ballerkennung. Nur wenn erkannt werden kann, wo der Spielball sich befindet und wohin er sich bewegt, kann auch darauf reagiert werden.</p>
+                    <p>Eine Selbstlokalisierung der Roboter ist grundlegend, damit alle Spieler als Team agieren können. Dafür müssen zunächst die Linien der Spielfeldbegrenzung und das Tor erkannt werden. Basierend darauf lassen sich mögliche Positionen berechnen, die unter Einberechnung des zurückgelegten Weges zu einer genauen und stabilen Lokalisierung führen sollen.</p>
+                    <p>Darauf aufbauend sollen auch noch alle gegnerischen Spieler auf dem Feld erkannt werden, damit zuvor geplante Taktiken genau umgesetzt werden können.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="col-6-10">
+                    <h2>Brain</h2>
+                    <p>Das Ressort Brain stellt die zentrale Steuereinheit der Naos während des Fußballspiels zur Verfügung. Hier werden Entscheidungen gefällt, um auf die unterschiedlichsten Spielsituationen intelligent und dynamisch reagieren zu können.</p>
+                    <p>Grundlage dafür ist eine Wissensbasis, die das Brain Modul aus verschiedenen Daten zusammensetzt. Informationen zum Spielablauf, wie z.B. gefallene Tore und Strafzeiten, erhalten die Roboter über den per Wi-Fi verbundenen GameController vom Schiedsrichter. Die Module Vision und Motion stellen Kameraaufnahmen, Positionshypothesen und das Ergebnis von Bewegungsabläufen bereit.</p>
+                    <p>Anhand der verschiedenen erhaltenen und ausgewerteten Informationen können die Roboter in die entsprechenden logischen Zustände versetzt werden, um daraufhin Befehle an das Motion Modul zu senden.</p>
+                </div><figure class="col-4-10 photo">
+                    <img src="photos/DSC_1336.JPG" />
+                </figure>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="col-6-10">
+                    <h2>Der Wettbewerb</h2>
+                </div><figure class="col-4-10">
+                    <img src="photos/DSC_1336.JPG" />
+                </figure>
+            </div>
+        </section>
+    </div>
+	<footer>
+		<div class="container">
+            <div class="col right">
+                <a href="/">Impressum</a> |
+                <a href="/">English</a>
+            </div>
+			<div class="col">
+                <a href="https://www.facebook.com/HULKs.TUHH"><span class="icon fb"></span></a>
+                <a href="https://twitter.com/TUHH_HULKs"><span class="icon tw"></span></a>
+                <a href="https://instagram.com/TeamHULKs"><span class="icon ig"></span></a>
+                <a href="https://www.youtube.com/channel/UCYPc0JVCoBdUp41zd3qjACQ"><span class="icon yt"></span></a>
+                <a href="https://www.gooding.de/organization/roboting-tuhh-e-v-23115"><span class="icon gd"></span></a>
+            </div>
+		</div>
+	</footer>
+    <script type="text/javascript" src="hulks.js"></script>
+</body>
+</html>
