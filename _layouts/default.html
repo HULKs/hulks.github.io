@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>HULKs.de - {{ page.title }}</title>
+    <meta charset="UTF-8" />
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,600" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="{{site.path}}/_style/hulks.css" type="text/css" />
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div class="container">
+                <div class="logo"></div>
+                <div class="subnav"><a href="{{site.path}}/"><img src="{{site.path}}/_style/img/gb.png" /></a></div>
+                <nav>
+                    <ul>
+                        <li><a href="{{site.path}}/">Aktuelles</a></li>
+                        <li><a href="{{site.path}}/teamhulks/">Team HULKs</a></li>
+                        <li><a href="{{site.path}}/robocup/">RoboCup</a></li>
+                        <li><a href="{{site.path}}/unterstuetzer/">Unterstützer</a></li>
+                        <li><a href="{{site.path}}/presse/">Presse</a></li>
+                        <li><a href="{{site.path}}/kontakt/">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        {{ content }}
+    </div>
+    <footer>
+		<div class="container">
+            <div class="col right">
+                <a href="/">Impressum</a> |
+                <a href="/">English</a>
+            </div>
+			<div class="col">
+                <a href="https://www.facebook.com/HULKs.TUHH"><span class="icon fb"></span></a>
+                <a href="https://twitter.com/TUHH_HULKs"><span class="icon tw"></span></a>
+                <a href="https://instagram.com/TeamHULKs"><span class="icon ig"></span></a>
+                <a href="https://www.youtube.com/channel/UCYPc0JVCoBdUp41zd3qjACQ"><span class="icon yt"></span></a>
+                <a href="https://www.gooding.de/organization/roboting-tuhh-e-v-23115"><span class="icon gd"></span></a>
+            </div>
+		</div>
+	</footer>
+    <script type="text/javascript" src="{{site.path}}/_js/hulks.js"></script>
+</body>
+</html>

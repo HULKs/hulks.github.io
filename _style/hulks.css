@@ -114,7 +114,7 @@ nav li:first-child a {
 .hero {
   height: 460px;
   padding-top: 40px;
-  background: url('hero2.jpg') top center;
+  background: url('img/hero2.jpg') top center;
 }
 .hero .hero-overlay {
   position: absolute;
@@ -226,7 +226,7 @@ footer .right {
 }
 section {
   padding: 30px 0;
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid #ccc;
   background: white;
 }
 section:nth-child(2n) {
