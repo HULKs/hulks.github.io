@@ -1,1 +1,2 @@
-baseurl:/hulks.github.io
+path: /hulks.github.io
+include: [_style,_js,_photos]
