@@ -3,6 +3,14 @@ layout: default
 title: RoboCup SPL Team, TU Hamburg
 ---
 
+
+<!--jquery-->
+<script src="{{site.path}}/_plugins/jquery-3.0.0.min.js"></script>
+
+<!--famax-->
+<link rel="stylesheet" href="{{site.path}}/_plugins/famax/css/famax.css" />
+<script src="{{site.path}}/_plugins/famax/js/famax.js"></script>
+
 <div class="hero">
     <div class="container">
         <div class="hero-overlay">
@@ -40,9 +48,25 @@ title: RoboCup SPL Team, TU Hamburg
         </div>
     </div>
 </div>
+
 <div class="container">
-    <article>
-        <h2>Aktuelles</h2>
-    </article>
+  <h2>Aktuelles</h2>
 </div>
-	
+
+<div class="container">
+  <div id="famax"></div>
+</div>
+
+<script>
+
+  $('#famax').famax({
+    //mandatory----------------
+    facebookPageUrl:"https://www.facebook.com/HULKs.TUHH",
+    fbAccessToken:"265140380514617|8f04ec804575094cce1642ff57d03731",
+
+    //optional-----------------
+    famaxWidgetWidth:"100%", //in px or %
+    famaxColumns:2,
+    famaxResultCount:2
+  });
+</script>

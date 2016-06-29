@@ -33,6 +33,10 @@ a:hover {
   margin: 0 auto;
   position: relative;
 }
+.facebookfeed-container {
+  max-width: 500px;
+
+}
 header {
   background: white;
   position: fixed;
