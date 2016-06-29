@@ -1,2 +1,2 @@
-path: 
-include: [_style,_js,_photos]
+path:
+include: [_style,_js,_photos,_files]
