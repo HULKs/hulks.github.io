@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width">
+    <title>Famax 5.0 - Complete Facebook Fan Page on your Website - Jquery plugin</title>
+
+	
+	<!--jquery-->
+	<script src="./jquery/jquery-1.9.1.min.js"></script>
+	
+	<script src="./js/jquery.famax.min.js"></script>
+	
+
+	
+	<style>
+
+      body {
+        font-family: Calibri;
+        font-size: 14px;
+		text-align:center;
+      }
+	  
+	  .control_holder {
+		padding: 5px;
+		font-size: 15px;
+		text-align: left;
+		
+		width: 500px;
+		display: inline-block;
+	  }
+	  
+	  .control_holder input, .control_holder select {
+		float: right;
+		}
+		
+		.control_holder select {
+		/*width: 172px;*/
+		}
+		
+		.separator {
+			height:0px;
+			width:100%;
+			border-top:1px solid #e2e2e2;
+		}
+		
+			.break {
+				display:none;
+			}
+
+
+		@media all and (max-width: 500px) {
+			.break {
+				display:block;
+			}
+			.control_holder input, .control_holder select {
+				float:none;
+				margin-bottom:5px;
+			}
+		}
+		
+		h1 {
+			font-size: 45px;
+    color: #424242;
+    font-family: "Times New Roman";
+    margin: 20px 0px;
+		}
+		
+		/*****************Famax Added Styles******************************/
+		.famax-channel-title {
+			overflow:hidden;
+		}
+		
+		@media all and (max-width: 800px) , screen and (max-device-width: 800px) {
+
+			.control_holder {
+				width: 100%;
+			}
+
+		}
+
+				a.flash {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 25px;
+    font-size: 16px;
+    background-color: cornflowerblue;
+    padding: 5px;
+    box-sizing: border-box;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+		
+	  
+		
+	</style>
+
+	</head>
+  <body>
+		<a style="text-decoration: none;" href="http://www.codehandling.com/2015/03/famax-40-complete-facebook-fanpage.html">
+			<h1>Famax 5.0</h1>
+			<!--Famax 3.0 - Complete Facebook Fan Page on your Website - Jquery plugin-->
+		</a>
+		<div class="separator"></div>
+<br><br>	
+
+<!--
+<a class="flash" href="http://demos.codehandling.com/youmax_demo/photomax_multiple_sources">Check out PhotoMax for Facebook, Instagram & Google+ Photos</a>
+-->
+
+<div class="control_holder">
+FanPage URL
+<br class="break">
+<input type="text" id="fan_page" value="https://www.facebook.com/adidas"/>
+</div>
+<br>
+
+
+<div class="control_holder">
+Album URL
+<br class="break">
+<input type="text" id="album_url" value="https://www.facebook.com/media/set/?set=a.10153495891665541.1073741843.76810820540&type=3"/>
+</div>
+<br>
+
+<div class="control_holder">
+Skin:
+<br class="break">
+<select id="skin_type">
+	<option value="grey" selected="selected">Grey</option>
+	<option value="white" >White</option>
+	<option value="black" >Black</option>
+</select>
+<br>
+</div>
+<br>
+
+<div class="control_holder">
+OnClick Action:
+<br class="break">
+<select id="onclick_action">
+	<option value="popup" selected="selected">Popup</option>
+	<option value="link" >Redirect to Facebook</option>
+</select>
+<br>
+</div>
+<br>
+
+
+<div class="control_holder">
+Selected Tab by default (p|t|l|v|h|a1|a2|...)
+<br class="break">
+<input type="text" id="selected_tab" value="p"/>
+<br>
+</div>
+<br>
+
+<div class="control_holder">
+Maximum width of Famax
+<br class="break">
+<input type="text" id="max_width" value="800"/>
+<br>
+</div>
+<br>
+
+<div class="control_holder">
+<button onclick="callFamax();" style="font-family:'Times New Roman'; font-size: 18px;padding: 6px 17px;background-color: #424242;    border-radius: 2px;color: white;border: none;margin-top: 15px;cursor: pointer;">Go</button>
+</div>
+<br><br>	<br>	
+<br>	
+<br>	
+<div id="famax" class="famax"></div>
+
+<br/><br/>
+
+<a href="http://www.codehandling.com/2015/03/famax-40-complete-facebook-fanpage.html">See how to use this plugin - at codehandling</a>
+
+<br/><br/><br/>
+<br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/>
+
+<script>
+
+function callFamax() {
+
+		$(".instamax-css").remove();
+
+		$('.famax').empty();
+		
+		fan_page=$('#fan_page').val();
+		album_url=$('#album_url').val();
+		max_width=$('#max_width').val();
+		selected_tab=$('#selected_tab').val();
+		
+		
+		skin_type=$('#skin_type').find(":selected").val();
+		onclick_action=$('#onclick_action').find(":selected").val();
+		
+		$("head").append('<link class="instamax-css" rel="stylesheet" href="./css/famax_'+skin_type+'.css"/>');
+
+		fan_page = fan_page.trim();
+		if(fan_page.charAt(fan_page.length-1)=="/") {
+			fan_page = fan_page.substring(0,fan_page.length-1);
+		}
+
+		album_url = album_url.trim();
+		if(album_url.charAt(album_url.length-1)=="/") {
+			album_url = album_url.substring(0,album_url.length-1);
+		}
+
+		
+		/*console.log(channel_url);
+		console.log(skin_type);
+		console.log(display_video_as);*/
+		
+		if(fan_page.indexOf('facebook.com/pages')!=-1) {
+			fan_page_id = fan_page.substring(fan_page.lastIndexOf('/')+1);
+			fan_page = "https://www.facebook.com/"+fan_page_id;
+		}
+		
+		$('#famax').famax({
+			
+			appId:'852602131447787',
+			accessToken:'EAAMHbZBctZCZBsBAGyNArdoI4FC3ZCvvyZCQYzmnUZBcZBafriZAAYhENEcK9C7F1VRs4biBKr8jUMb19Qj69bZCc200yQDAn1anED2uMQb5G795suvGPZB75zIjCYhTQCcM8Q6UOMaLz8povOQmExu9fVlZCQEMuKCbtoZD',
+
+			fanPage:fan_page,
+			album: [
+				album_url
+			],
+			maxContainerWidth: max_width, //Maximum width of plugin container
+			
+			selectedTab:selected_tab, //u - for uploads, p1 - for 1st playlist, p2 - for 2nd playlist .... s1 for 1st SearchTab, s2 for 2ns SearchTab .....
+			skin: skin_type, //white|grey|none
+			onClickAction: onclick_action,
+			
+			//NON MANDATORY
+			maxResults:12, //Maximum videos to display in one load
+			innerOffset: 40, //Distance between video thumbnails
+			minItemWidth: 300, //Minumum width of a video thumbnails
+			maxItemWidth : 450, //Maximum width of a video thumbnails
+			outerOffset: 35, //Distance between video thumbnails and plugin conatiner
+			alwaysUseDropdown: false,
+			imagesFolderPath: './images',
+			maxAttachments: 3,
+			notFoundImage: 'http://www.404notfound.fr/assets/images/pages/img/onsydney.jpg', //change this image link
+
+		});
+
+}
+
+callFamax();
+
+</script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42442414-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  </body>
+</html>
+
+
+
