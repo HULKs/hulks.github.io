@@ -11,13 +11,36 @@
         <header>
             <div class="container">
                 <div class="logo"></div>
-                <div class="subnav"><a href="{{site.path}}/"><img src="{{site.path}}/_style/img/gb.png" /></a></div>
+								<!-- TODO: Implement english pages -->
+                <!--div class="subnav"><a href="{{site.path}}/"><img src="{{site.path}}/_style/img/gb.png" /></a></div-->
                 <nav>
                     <ul>
-                        <li><a href="{{site.path}}/">Aktuelles</a></li>
-                        <li><a href="{{site.path}}/teamhulks/">Team HULKs</a></li>
-                        <li><a href="{{site.path}}/robocup/">RoboCup</a></li>
-                        <li><a href="{{site.path}}/unterstuetzer/">Unterstützer</a></li>
+                        <li>
+													<a href="{{site.path}}/">Aktuelles</a>
+												</li>
+                        <li>
+													<a href="#" class="nav">Team HULKs</a>
+													<ul>
+														<li><a href="{{site.path}}/teamhulks/">Die HULKs</a></li>
+														<li><a href="{{site.path}}/teamhulks/lab.html">Das Labor</a></li>
+														<li><a href="{{site.path}}/teamhulks/publications.html">Veröffentlichungen</a></li>
+													</ul>
+												</li>
+                        <li>
+													<a href="#">RoboCup</a>
+													<ul>
+														<li><a href="{{site.path}}/robocup/">RoboCup Events</a></li>
+														<li><a href="{{site.path}}/robocup/team.html">RoboCup Kader</a></li>
+													</ul>
+												</li>
+                        <li>
+													<a href="#">Unterstützer</a>
+													<ul>
+														<li><a href="{{site.path}}/unterstuetzer/">Aktuelle Sponsoren</a></li>
+														<li><a href="{{site.path}}/unterstuetzer/howto.html">Sponsor werden</a></li>
+													</ul>
+												</li>
+
                         <li><a href="{{site.path}}/presse/">Presse</a></li>
                         <li><a href="{{site.path}}/kontakt/">Kontakt</a></li>
                     </ul>
