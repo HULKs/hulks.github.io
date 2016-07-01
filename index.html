@@ -2,6 +2,12 @@
 layout: default
 title: RoboCup SPL Team, TU Hamburg
 ---
+<!--jquery-->
+<script src="{{site.path}}/_plugins/jquery-3.0.0.min.js"></script>
+
+<!--famax-->
+<link rel="stylesheet" href="{{site.path}}/_plugins/famax-ultra/css/famax_white.css" />
+<script src="{{site.path}}/_plugins/famax-ultra/js/jquery.famax.min.js"></script>
 
 <div class="hero">
     <div class="container">
@@ -40,8 +46,44 @@ title: RoboCup SPL Team, TU Hamburg
         </div>
     </div>
 </div>
+
 <div class="container">
-    <article>
-        <h2>Aktuelles</h2>
-    </article>
+  <h2>Aktuelles</h2>
 </div>
+
+<div class="container">
+  <div id="famax" class="famax"></div>
+</div>
+
+<script>
+
+  $('#famax').famax({
+
+    appId:'265140380514617',
+
+    //accessToken: '1723231497894605|4496cd210ba268a5c5edbe8212923b34',
+    accessToken: '265140380514617|8f04ec804575094cce1642ff57d03731',
+
+    fanPage:'https://www.facebook.com/HULKs.TUHH',
+
+    album : [
+    ],
+
+    //NON MANDATORY
+    maxResults: 6, //Maximum videos to display in one load
+    innerOffset: 30, //Distance between video thumbnails
+    minItemWidth: 300, //Minumum width of a video thumbnails
+    maxItemWidth : 450, //Maximum width of a video thumbnails
+    outerOffset: 30, //Distance between video thumbnails and plugin conatiner
+    alwaysUseDropdown: false,
+    notFoundImage: 'http://www.404notfound.fr/assets/images/pages/img/onsydney.jpg', //change this image link
+    maxAttachments: 8,
+    selectedTab: 'p',
+    skin:'none',
+    displayMetricsForTags:false,
+    displayMetricsForPosts:true,
+    maxComments:14,
+    onClickAction:'popup',
+    refreshTimeout:1000
+  });
+</script>
