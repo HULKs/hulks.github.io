@@ -858,6 +858,7 @@ font-family: cursive;
 	}
 
 	.famax-tab {
+  display: none;
 	width: 42%;
 	text-align: center;
 	}
@@ -871,6 +872,7 @@ font-family: cursive;
 @media all and (max-width: 350px) , screen and (max-device-width: 350px) {
 
 	.famax-tab {
+  display: none;
 	width: 90%;
 	text-align: center;
 	}
