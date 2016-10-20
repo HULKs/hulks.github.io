@@ -1,2 +1,4 @@
 path:
 include: [_style,_js,_photos,_plugins,_files]
+url: https://www.hulks.de
+enforce_ssl: www.hulks.de
