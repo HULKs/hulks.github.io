@@ -921,7 +921,7 @@ var famaxLoggedInUser = {};
 
 		$famaxContainer.find('#famax-header-wrapper').append('<a href="https://www.facebook.com/'+pageId+'" target="_blank"><div class="famax-channel-icon"><img src="https://graph.facebook.com/v2.4/'+pageId+'/picture?type=normal&access_token='+famax_global_options.accessToken+'"/></div><div class="famax-channel-title">'+pageTitle+'</div></a>');
 
-		$famaxContainer.find('#famax-header-wrapper').append('&nbsp;&nbsp;&nbsp;&nbsp;<div class="famax-subscribe"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2F'+pageId+'&amp;layout=box_count&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp" style="overflow:hidden;width:100%;height:80px;" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>');
+		$famaxContainer.find('#famax-header-wrapper').append('&nbsp;&nbsp;&nbsp;&nbsp;<div class="famax-subscribe"><iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2F'+pageId+'&amp;layout=box_count&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp" style="overflow:hidden;width:100%;height:80px;" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>');
 
 		$famaxContainer.find('#famax-stat-holder').append('<div class="famax-stat"><span class="famax-stat-count">'+convertViewCount(pageTalkingAbout)+'</span><br/> TALKING </div><div class="famax-stat"><span class="famax-stat-count">'+convertViewCount(pageLikes)+'</span><br/>LIKES</div>');
 
@@ -1949,7 +1949,7 @@ var famaxLoggedInUser = {};
 		}
 
 
-		apiUrl = "http://api.longurl.org/v2/expand?format=json&url="+link;
+		apiUrl = "https://api.longurl.org/v2/expand?format=json&url="+link;
 
 		//console.log('getLongLink apiUrl-'+apiUrl,postId);
 
@@ -2557,13 +2557,13 @@ var famaxLoggedInUser = {};
 									}
 									return tid;
 								},
-								src: 'http://www.youtube.com/embed/%id%?rel=0&autoplay=1'
+								src: 'https://www.youtube.com/embed/%id%?rel=0&autoplay=1'
 							},
 							facebook : {
 								index: 'facebook.com/',
 								id: '?v=',
 								//id: '/videos/',
-								src: 'http://www.facebook.com/video/embed?video_id=%id%'
+								src: 'https://www.facebook.com/video/embed?video_id=%id%'
 							},
 							/*vimeoondemand : {
 								index: 'vimeo.com/ondemand',
@@ -2580,7 +2580,7 @@ var famaxLoggedInUser = {};
 							vimeo: {
 								index: 'vimeo.com/',
 								id: '/',
-								src: 'http://player.vimeo.com/video/%id%?autoplay=1'
+								src: 'https://player.vimeo.com/video/%id%?autoplay=1'
 							}
 
 						}
@@ -2796,9 +2796,9 @@ var famaxLoggedInUser = {};
 
 		//add fontawesome icons
 		if (document.createStyleSheet){
-			document.createStyleSheet("http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
+			document.createStyleSheet("https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
 		} else {
-			$("head").append("<link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' type='text/css' />");
+			$("head").append("<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' type='text/css' />");
 		}
 
 		//Get CSS for Skins
@@ -2902,7 +2902,7 @@ var famaxLoggedInUser = {};
 		getAccessToken(options,$famaxContainer);
 
 		//Facebook Login script
-		$.getScript( "http://connect.facebook.net/en_US/sdk.js" )
+		$.getScript( "https://connect.facebook.net/en_US/sdk.js" )
 		.done(function( script, textStatus ) {
 			//console.log("Facebook Init called..");
 			FB.init({
