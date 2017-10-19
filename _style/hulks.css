@@ -53,13 +53,15 @@ header {
 .logo {
   display: inline-block;
   background: url('img/bighulk.png') top center no-repeat;
-  background-size: 200px;
-  width: 200px;
+  background-size: 190px;
+  width: 190px;
   height: 190px;
-  margin: 0 -10px;
+  margin: 0 -5px;
   transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
+  box-shadow: rgba(0, 0, 0, 0.6) 0 3px 3px;
+	border-radius: 95px; /* width/2 */
 }
 .stickyheader header {
   top: -40px;
@@ -67,7 +69,11 @@ header {
 }
 .stickyheader .logo {
   background-size: 120px;
+  width: 120px;
+  height: 120px;
   margin-top: 40px;
+  box-shadow: rgba(0, 0, 0, 0.6) 0 2px 2px;
+	border-radius: 60px; /* width/2 */
 }
 .subnav {
   float: right;
