@@ -280,6 +280,24 @@ footer .right {
 .col-contact {
   width: 150px;
 }
+.sponsorclass0{
+  width: 280px;
+}
+.sponsorclass1{
+  width: 280px;
+}
+.sponsorclass2{
+  width: 200px;
+}
+.sponsorclass3{
+  width: 150px;
+}
+.sponsor{
+  margin-top: 30px;
+  margin-left: 30px;
+  display: inline-block;
+  vertical-align: top;
+}
 .col-1-2 {
   width: 200px;
 }
@@ -300,7 +318,7 @@ footer .right {
 .col-1-2,
 .col-2-3,
 .col-4-10,
-.col-6-10 {
+.col-6-10{
   margin-left: 30px;
   display: inline-block;
   vertical-align: top;
@@ -335,7 +353,9 @@ figure.photo img {
   background: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
-figure.photo-contact img {
+figure.photo-contact,
+figure.sponsor,
+img {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   background: white;
