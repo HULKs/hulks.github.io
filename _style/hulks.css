@@ -277,6 +277,10 @@ footer .right {
 .icon.gd {
   background: url('img/gooding-icon-48.png');
 }
+.icon.ml {
+  background: url('img/maschine-learning-icon-128.png');
+  background-size: 48px;
+}
 .col-contact {
   width: 150px;
 }
