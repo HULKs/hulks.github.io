@@ -4,7 +4,7 @@ GEM
     ffi (1.15.5)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    listen (3.7.1)
+    listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     rb-fsevent (0.11.2)
@@ -13,6 +13,7 @@ GEM
     webrick (1.7.0)
 
 PLATFORMS
+  x86_64-linux
   x86_64-linux-musl
 
 DEPENDENCIES
@@ -20,4 +21,4 @@ DEPENDENCIES
   webrick
 
 BUNDLED WITH
-   2.3.23
+   2.4.1
