@@ -6,6 +6,17 @@
     <link rel="stylesheet" href="{{site.path}}/_style/hulks.css" type="text/css"/>
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <style>
+        #donate-button-container {
+            position: absolute;
+            top: 5px;
+            right: -50px;
+            z-index: 1000;
+        }
+        header {
+            position: relative;
+        }
+    </style>
 </head>
 <body>
 <div id="wrap">
@@ -39,6 +50,21 @@
                     </li>
                 </ul>
             </nav>
+            <div id="donate-button-container">
+                <div id="donate-button"></div>
+                <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+                <script>
+                PayPal.Donation.Button({
+                env:'production',
+                hosted_button_id:'LBYBQXRW888P2',
+                image: {
+                src:'https://pics.paypal.com/00/s/MDlkYTFmNzYtY2E4OS00ZGE2LTg4NTQtYTU2YzFhMTNlNDlj/file.PNG',
+                alt:'Donate with PayPal button',
+                title:'PayPal - The safer, easier way to pay online!',
+                }
+                }).render('#donate-button');
+                </script>
+            </div>                
         </div>
     </header>
     {{ content }}
@@ -52,7 +78,6 @@
         <div class="col">
             <a href="https://instagram.com/hulks_tuhh" target="_blank"><img src="{{site.path}}/_style/img/instagram_icon.svg" class="icon"></></a>
             <a href="https://www.linkedin.com/company/hulks" target="_blank"><img src="{{site.path}}/_style/img/linkedin_icon.svg" class="icon" /></a>
-            <a href="https://ko-fi.com/hulks" target="_blank"><img src="https://storage.ko-fi.com/cdn/fullLogoKofi.png" class="icon" /></a>
             <!--<a href="https://www.mle.hamburg/lehre/#hulks" target="_blank"><span class="icon ml"></span></a>-->
         </div>
     </div>
