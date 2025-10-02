@@ -214,8 +214,7 @@ nav li:first-child a {
 .hero {
     height: 500px;
     padding-top: 0px;
-    background: url("img/index-background.jpg") top center;
-    background-position: 46% top;
+    background: url("img/index-background.jpg") center 60%/cover;
 }
 .hero .hero-overlay {
     position: absolute;
