@@ -1,9 +1,13 @@
-version: '3'
 services:
   jekyll:
-    image: jekyll/jekyll
+    image: jekyll/jekyll:4.4.1
     volumes:
-      - .:/srv/jekyll
+      - .:/srv/jekyll:Z
+      - jekyll_bundle:/usr/local/bundle
     ports:
       - "4000:4000"
-    command: jekyll serve -l
+      - "35729:35729"
+    command: sh -c "bundle install && exec bundle exec jekyll serve --livereload --host 0.0.0.0"
+
+volumes:
+  jekyll_bundle:

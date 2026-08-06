@@ -1,6 +1,4 @@
 source "https://rubygems.org"
 
-gem "jekyll-watch"
-gem "webrick"
-gem "em-websocket"
+gem "jekyll", "~> 4.4.1"
 gem "jekyll-redirect-from"
