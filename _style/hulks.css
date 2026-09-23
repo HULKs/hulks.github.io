@@ -433,3 +433,147 @@ img {
     -moz-box-sizing: border-box;
     background: white;
 }
+
+/* ------------------------------------------------------------------ */
+/* Responsive / mobile                                                */
+/* ------------------------------------------------------------------ */
+
+/* Safety net: never allow accidental horizontal overflow. */
+html,
+body {
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media (max-width: 820px) {
+    .container {
+        width: auto;
+        max-width: none;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    #wrap {
+        padding-top: 0.5rem;
+        padding-bottom: 0;
+    }
+
+    /* Header / navigation: stack logo and nav, let them wrap. */
+    header {
+        height: auto;
+        padding-bottom: 0.75rem;
+        text-align: center;
+    }
+    .logo {
+        width: 120px;
+        height: 120px;
+        background-size: 120px;
+        border-radius: 60px;
+        margin: 0.5rem auto 0;
+    }
+    nav {
+        display: block;
+    }
+    nav > ul {
+        width: auto;
+        max-width: 100%;
+        margin: 0.5rem auto 0;
+        display: inline-block;
+    }
+    nav > ul > li > a {
+        border-left: none;
+        margin-bottom: 0;
+        padding: 0 8px;
+    }
+    .subnav {
+        float: none;
+        margin-top: 0.5rem;
+    }
+    /* Disable the scroll shrink animation; the mobile header is already compact. */
+    .stickyheader header {
+        top: 0;
+    }
+    .stickyheader .logo {
+        width: 120px;
+        height: 120px;
+        background-size: 120px;
+        margin-top: 0.5rem;
+    }
+
+    /* Page headings: no longer need to clear the overlapping logo. */
+    .farbklecks {
+        padding-top: 1.5rem;
+    }
+    .farbklecks h1 {
+        padding-left: 0;
+        line-height: 1.2;
+        font-size: 2.25rem;
+        text-align: center;
+    }
+
+    /* Hero */
+    .hero {
+        height: 360px;
+    }
+    .hero .hero-overlay {
+        font-size: 1.35em;
+    }
+    .hero-nav {
+        margin-top: -40px;
+    }
+    .hero-nav .box {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0.75rem;
+    }
+
+    /* Collapse the fixed-width column system to a single column. */
+    .col-contact,
+    .col-1-3,
+    .col-1-2,
+    .col-2-3,
+    .col-4-10,
+    .col-6-10 {
+        width: 100%;
+        margin-left: 0;
+    }
+    .col-contact {
+        width: 160px;
+    }
+
+    /* Sponsors */
+    .sponsor {
+        margin-left: 0;
+    }
+    .sponsorclass0,
+    .sponsorclass1,
+    .sponsorclass2,
+    .sponsorclass3 {
+        max-width: 100%;
+    }
+    .sponsorclass0 {
+        width: 100%;
+    }
+
+    /* Embeds: scale to the available width instead of a fixed 800px. */
+    iframe {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+
+    /* Footer */
+    footer {
+        height: auto;
+        margin-top: 0;
+        padding: 1rem 0;
+    }
+    footer .right {
+        float: none;
+        margin-top: 0.5rem;
+    }
+}
