@@ -73,12 +73,6 @@
               "avatar": "/team/members/codebydamiank.png"
             },
             {
-              "name": "Darshana Sanjeewan Adikari, M.Sc.",
-              "study": "Mechatronics, Intelligent Systems and Robotics",
-              "github": "tuxbotix",
-              "avatar": "/team/members/tuxbotix.png"
-            },
-            {
               "name": "Franziska-Sophie Göttsch, M.Sc.",
               "study": "Computer Science and Engineering",
               "github": "Franziska-Sophie",
@@ -91,12 +85,6 @@
               "avatar": "/team/members/pejotejo.jpg"
             },
             {
-              "name": "Jonas Holz",
-              "study": "Data Science",
-              "github": "jonasholz",
-              "avatar": "/team/members/jonasholz.png"
-            },
-            {
               "name": "Julian Schuler, M.Sc.",
               "study": "Computer Science",
               "github": "julianschuler",
@@ -107,12 +95,6 @@
               "study": "Computer Science",
               "github": "knoellle",
               "avatar": "/team/members/knoellle.png"
-            },
-            {
-              "name": "Maik Rebaum, M.Sc.",
-              "study": "Computer Science",
-              "github": "maikre",
-              "avatar": "/team/members/maikre.jpg"
             },
             {
               "name": "Maximilian Schmidt, M.Sc.",
@@ -149,12 +131,6 @@
               "study": "Computer Science and Engineering",
               "github": "jackybloxx",
               "avatar": "/team/members/jackybloxx.jpg"
-            },
-            {
-              "name": "Tizian Holzhausen, B.Sc.",
-              "study": "Computer Science and Engineering",
-              "github": "ITizian",
-              "avatar": "/team/members/itizian.png"
             }
           ]
         },
@@ -198,6 +174,12 @@
               "study": "Mechatronics, Intelligent Systems and Robotics",
               "github": "lassepe",
               "avatar": "/team/members/lassepe.png"
+            },
+            {
+              "name": "Maik Rebaum, M.Sc.",
+              "study": "Computer Science",
+              "github": "maikre",
+              "avatar": "/team/members/maikre.jpg"
             },
             {
               "name": "Nicolas Riebesel, M.Sc.",
