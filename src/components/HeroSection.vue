@@ -15,7 +15,7 @@ function scrollNext() {
 
 <template>
   <section
-    class="relative flex min-h-screen w-full flex-col overflow-hidden border-b border-ink-200 dark:border-ink-800"
+    class="relative flex min-h-[calc(100vh_-_4rem)] w-full flex-col overflow-hidden border-b border-ink-200 dark:border-ink-800"
   >
     <!-- Decorative background -->
     <div
