@@ -35,8 +35,8 @@ function hostname(url) {
   >
     <div
       :class="[
-        'flex items-center justify-center bg-white p-6',
-        variant === 'detailed' ? 'h-36' : 'h-28',
+        'flex items-center justify-center bg-white',
+        variant === 'detailed' ? 'h-52 p-5' : 'h-44 p-4',
       ]"
     >
       <img
@@ -44,7 +44,7 @@ function hostname(url) {
         :src="sponsor.logo"
         :alt="`${sponsor.name} logo`"
         loading="lazy"
-        class="max-h-full max-w-full object-contain transition-transform duration-500 group-hover:scale-105"
+        class="h-full w-full object-contain transition-transform duration-500 group-hover:scale-105"
       />
       <span v-else class="font-display text-lg font-semibold text-ink-800">
         {{ sponsor.name }}

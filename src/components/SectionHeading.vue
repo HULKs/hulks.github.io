@@ -17,7 +17,7 @@ defineProps({
     <h2
       class="font-display text-3xl font-bold tracking-tight text-ink-900 dark:text-white sm:text-4xl"
     >
-      {{ title }}
+      <slot name="title">{{ title }}</slot>
     </h2>
     <p
       v-if="description"

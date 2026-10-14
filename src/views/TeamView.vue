@@ -3,6 +3,7 @@ import { computed } from "vue";
 import { useRoute, useRouter } from "vue-router";
 import SectionHeading from "@/components/SectionHeading.vue";
 import MemberGroup from "@/components/MemberGroup.vue";
+import CountryFlag from "@/components/CountryFlag.vue";
 import team from "@/data/team.json";
 import teamHistory from "@/data/team-history.json";
 import { fadeUp, fadeUpStaggered } from "@/motion/presets";
@@ -17,8 +18,7 @@ const seasons = teamHistory.seasons.map((season) =>
 
 function locationFor(season) {
   if (season.event) return season.event;
-  const match = season.label?.match(/\(([^)]+)\)\s*$/);
-  return match ? match[1] : (season.label ?? "");
+  return season.label?.split(" | ")[1] ?? season.label ?? "";
 }
 
 const route = useRoute();
@@ -50,7 +50,12 @@ function selectYear(year) {
       eyebrow="The People"
       :title="selectedSeason.label"
       description="A cross-disciplinary team of students and researchers working together on humanoid robotics — from firmware to high-level behavior."
-    />
+    >
+      <template #title>
+        {{ selectedSeason.label }}
+        <CountryFlag :country-code="selectedSeason.countryCode" class="ml-2" />
+      </template>
+    </SectionHeading>
 
     <div class="mt-6 flex flex-wrap gap-1.5">
       <button
@@ -123,9 +128,10 @@ function selectYear(year) {
             >
               {{ history.year }}
             </span>
-            <span class="ml-4 truncate font-medium">{{
-              locationFor(history)
-            }}</span>
+            <span class="ml-4 flex min-w-0 items-center gap-2 font-medium">
+              <CountryFlag :country-code="history.countryCode" :width="20" :height="15" />
+              <span class="truncate">{{ locationFor(history) }}</span>
+            </span>
             <span
               v-if="history.year === currentYear"
               class="ml-3 inline-flex items-center rounded-full border border-brand-500/60 bg-brand-500/10 px-2.5 py-0.5 font-mono text-[11px] uppercase tracking-wider text-brand-700 dark:text-brand-300"

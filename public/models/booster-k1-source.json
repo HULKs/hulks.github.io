@@ -1,0 +1,7 @@
+{
+  "name": "Booster K1",
+  "source": "https://raw.githubusercontent.com/BoosterRobotics/booster_assets/12a97516f57469078707afb587a5f84c1cb110d1/robots/K1/K1_22dof.urdf",
+  "sourceCommit": "12a97516f57469078707afb587a5f84c1cb110d1",
+  "license": "BSD-3-Clause",
+  "conversion": "Official URDF visual meshes assembled in a relaxed standing pose, smoothed, simplified with 0.1% error tolerance, and quantized for browser delivery."
+}

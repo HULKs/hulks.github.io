@@ -2,7 +2,8 @@
   "seasons": [
     {
       "year": "2027",
-      "label": "Team 2027 (Nuremberg, Germany)",
+      "label": "Team 2027 | Nuremberg, Germany",
+      "countryCode": "de",
       "photo": "/team/groups/team-2026.jpg",
       "groups": [
         {
@@ -221,7 +222,8 @@
     },
     {
       "year": "2026",
-      "label": "Team 2026 (Incheon, Korea)",
+      "label": "Team 2026 | Incheon, Korea",
+      "countryCode": "kr",
       "photo": "/team/groups/team-2026.jpg",
       "groups": [
         {
@@ -487,7 +489,8 @@
     },
     {
       "year": "2025",
-      "label": "Team 2025 (Salvador, Brazil)",
+      "label": "Team 2025 | Salvador, Brazil",
+      "countryCode": "br",
       "photo": "/team/groups/team-2025.jpg",
       "groups": [
         {
@@ -736,7 +739,8 @@
     },
     {
       "year": "2024",
-      "label": "Team 2024 (Eindhoven, Netherlands)",
+      "label": "Team 2024 | Eindhoven, Netherlands",
+      "countryCode": "nl",
       "photo": "/team/groups/team-2024.jpg",
       "groups": [
         {
@@ -1005,7 +1009,8 @@
     },
     {
       "year": "2023",
-      "label": "Team 2023 (Bordeaux, France)",
+      "label": "Team 2023 | Bordeaux, France",
+      "countryCode": "fr",
       "photo": "/team/groups/team-2023.jpg",
       "groups": [
         {
@@ -1244,7 +1249,8 @@
     },
     {
       "year": "2022",
-      "label": "Team 2022 (Bangkok, Thailand)",
+      "label": "Team 2022 | Bangkok, Thailand",
+      "countryCode": "th",
       "photo": "/team/groups/robocup-2022.jpg",
       "groups": [
         {
@@ -1465,7 +1471,8 @@
     },
     {
       "year": "2020/21",
-      "label": "Team 2020/2021 (Bordeaux, France)",
+      "label": "Team 2020/2021 | Bordeaux, France",
+      "countryCode": "fr",
       "photo": "/team/groups/robocup-2021.jpg",
       "groups": [
         {
@@ -1696,7 +1703,8 @@
     },
     {
       "year": "2019",
-      "label": "Team 2019 (Sydney, Australia)",
+      "label": "Team 2019 | Sydney, Australia",
+      "countryCode": "au",
       "photo": "/team/groups/robocup-2019.jpg",
       "groups": [
         {
@@ -1909,7 +1917,8 @@
     },
     {
       "year": "2018",
-      "label": "Team 2018 (Montréal, Canada)",
+      "label": "Team 2018 | Montréal, Canada",
+      "countryCode": "ca",
       "photo": "/team/groups/robocup-2018.jpg",
       "groups": [
         {
@@ -2104,7 +2113,8 @@
     },
     {
       "year": "2017",
-      "label": "Team 2017 (Nagoya, Japan)",
+      "label": "Team 2017 | Nagoya, Japan",
+      "countryCode": "jp",
       "photo": "/team/groups/robocup-2017.jpg",
       "groups": [
         {
@@ -2309,7 +2319,8 @@
     },
     {
       "year": "2016",
-      "label": "Team 2016 (Leipzig, Germany)",
+      "label": "Team 2016 | Leipzig, Germany",
+      "countryCode": "de",
       "photo": "/team/groups/robocup-2016.jpg",
       "groups": [
         {
@@ -2524,13 +2535,15 @@
     },
     {
       "year": "2015",
-      "label": "Team 2015 (Hefei, China)",
+      "label": "Team 2015 | Hefei, China",
+      "countryCode": "cn",
       "photo": "/team/groups/robocup-2015.jpg",
       "groups": []
     },
     {
       "year": "2014",
-      "label": "Team 2014 (João Pessoa, Brazil)",
+      "label": "Team 2014 | João Pessoa, Brazil",
+      "countryCode": "br",
       "photo": "/team/groups/robocup-2014.jpg",
       "groups": []
     }

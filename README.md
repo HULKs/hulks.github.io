@@ -60,3 +60,9 @@ Die Domain bleibt über die GitHub-Pages-Einstellungen und `public/CNAME` auf `h
 `scripts/build-pages.mjs` erstellt HTML-Einstiegspunkte für alle Seiten und frühere Team-URLs, damit direkte Aufrufe bei GitHub Pages funktionieren. Team-Saisons sind über `/team?season=2026` verlinkbar; ältere URLs wie `/team/team2026.html` öffnen automatisch die passende Saison. Nicht vorhandene Seiten verwenden die Vue-404-Seite.
 
 `legacy-assets.json` ordnet die ursprünglichen `/_files/`-Downloads den Dateien unter `public/` zu. Vorhandene historische Asset-Ordner im Repository (`_photos`, `_style`, `_fonts`, `_js`) werden ebenfalls in den Build übernommen. Die alten Quellen bleiben für diese Links und als Archiv erhalten; die aktuellen Inhalte werden ausschließlich unter `src/data/` gepflegt.
+
+## Modell und Flaggen
+
+Das Booster-K1-Modell unter `public/models/booster-k1.glb` wurde aus den offiziellen [Booster-Robotics-Assets](https://github.com/BoosterRobotics/booster_assets) konvertiert. Herkunft und Version stehen in `booster-k1-source.json`, die BSD-3-Clause-Lizenz in `booster-k1-LICENSE.txt`. Der Vite-Build verwendet die fertige GLB-Datei und benötigt keine zusätzlichen Modellierungswerkzeuge.
+
+Die Flaggen werden aus `src/assets/country-flags.json` lokal eingebunden. Jede Saison in `team-history.json` hat dafür einen ISO-Ländercode unter `countryCode`. Die Icons stammen aus [flag-icons](https://github.com/lipis/flag-icons); die MIT-Lizenz liegt unter `public/licenses/flag-icons.txt`.

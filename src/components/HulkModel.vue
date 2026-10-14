@@ -18,7 +18,8 @@ import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import { RoomEnvironment } from "three/examples/jsm/environments/RoomEnvironment.js";
 
 const props = defineProps({
-  src: { type: String, default: "/Hulk3d.glb" },
+  src: { type: String, default: "/models/booster-k1.glb" },
+  label: { type: String, default: "Interactive 3D model of the Booster K1 humanoid robot" },
   autoRotate: { type: Boolean, default: true },
 });
 
@@ -179,7 +180,7 @@ onBeforeUnmount(dispose);
     <div
       ref="container"
       class="h-full w-full"
-      aria-label="Interactive 3D model of a HULKs humanoid robot"
+      :aria-label="label"
       role="img"
     ></div>
 

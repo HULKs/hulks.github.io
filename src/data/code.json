@@ -17,16 +17,14 @@
       "language": "Rust"
     },
     {
-      "name": "nao-image-segmentation-dataset",
-      "description": "A RoboCup robot soccer image dataset with manual condition categories and representative segmentation masks.",
-      "url": "https://github.com/HULKs/nao-image-segmentation-dataset",
-      "language": "TeX"
-    },
-    {
-      "name": "hulks.github.io",
-      "description": "The HULKs website, including team rosters, publications, competition reports, and our GitHub Pages deployment.",
-      "url": "https://github.com/HULKs/hulks.github.io",
-      "language": "Vue"
+      "name": "labello",
+      "description": "Image annotation tooling for creating and maintaining datasets for our robotics research.",
+      "url": "https://github.com/HULKs/labello",
+      "language": "Rust"
     }
-  ]
+  ],
+  "model": {
+    "src": "/models/booster-k1.glb",
+    "label": "Interactive 3D model of the Booster K1 humanoid robot"
+  }
 }

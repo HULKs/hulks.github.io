@@ -7,6 +7,7 @@ import SectionHeading from "@/components/SectionHeading.vue";
 import EventCard from "@/components/EventCard.vue";
 import TeamCarousel from "@/components/TeamCarousel.vue";
 import VideoEmbed from "@/components/VideoEmbed.vue";
+import SponsorLogo from "@/components/SponsorLogo.vue";
 import events from "@/data/events.json";
 import sponsors from "@/data/sponsors.json";
 import site from "@/data/site.json";
@@ -19,7 +20,11 @@ const carouselMembers = computed(() => {
   const groups = selectedIds.length
     ? team.groups.filter((group) => selectedIds.includes(group.id))
     : team.groups;
-  return groups.flatMap((group) => group.members);
+  return groups.flatMap((group) =>
+    group.members.map((member) =>
+      group.id === "leads" ? { ...member, role: "Dev-Lead" } : member,
+    ),
+  );
 });
 
 const EVENTS_INITIAL = 4;
@@ -159,35 +164,14 @@ const hasMoreEvents = computed(() => events.length > EVENTS_INITIAL);
         </RouterLink>
       </div>
       <ul
-        class="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 md:grid-cols-4 lg:grid-cols-5"
+        class="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4"
       >
         <li
           v-for="(sponsor, i) in allSponsors"
           :key="sponsor.name"
           v-reveal="{ delay: i * 60 }"
         >
-          <a
-            :href="sponsor.url"
-            target="_blank"
-            rel="noopener"
-            :title="sponsor.name"
-            :aria-label="sponsor.name"
-            class="flex h-24 w-full items-center justify-center rounded-lg border border-ink-200 bg-white p-2 transition-colors hover:border-brand-500 sm:h-28 dark:border-ink-800"
-          >
-            <img
-              v-if="sponsor.logo"
-              :src="sponsor.logo"
-              :alt="`${sponsor.name} logo`"
-              loading="lazy"
-              class="max-h-full max-w-full object-contain"
-            />
-            <span
-              v-else
-              class="text-center font-display text-sm font-semibold text-ink-700"
-            >
-              {{ sponsor.name }}
-            </span>
-          </a>
+          <SponsorLogo :sponsor="sponsor" variant="compact" />
         </li>
       </ul>
     </div>

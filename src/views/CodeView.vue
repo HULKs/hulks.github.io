@@ -1,23 +1,28 @@
 <script setup>
-import { computed } from "vue";
+import { computed, onMounted, onUnmounted, ref } from "vue";
 import { Icon } from "@iconify/vue";
 import SectionHeading from "@/components/SectionHeading.vue";
 import HulkModel from "@/components/HulkModel.vue";
 import RepoCard from "@/components/RepoCard.vue";
 import code from "@/data/code.json";
 import { useGithubRepo } from "@/composables/useGithubRepo.js";
+import { formatLastPush } from "@/utils/formatLastPush.js";
 import { fadeUp, fadeUpStaggered } from "@/motion/presets";
 
-const { data: repo, loading, error } = useGithubRepo(code.github.repo);
+const { data: repo, loading } = useGithubRepo(code.github.repo);
+const now = ref(Date.now());
+let relativeTimeInterval;
+
+onMounted(() => {
+  relativeTimeInterval = setInterval(() => {
+    now.value = Date.now();
+  }, 60_000);
+});
+onUnmounted(() => clearInterval(relativeTimeInterval));
 
 const formatter = new Intl.NumberFormat("en", {
   notation: "compact",
   maximumFractionDigits: 1,
-});
-const dateFormatter = new Intl.DateTimeFormat("en", {
-  year: "numeric",
-  month: "short",
-  day: "numeric",
 });
 
 const stats = computed(() => {
@@ -51,7 +56,10 @@ const stats = computed(() => {
     { label: "License", value: r?.license ?? "—", icon: "license" },
     {
       label: "Last push",
-      value: r?.pushedAt ? dateFormatter.format(new Date(r.pushedAt)) : "—",
+      value: formatLastPush(r?.pushedAt, now.value),
+      title: r?.pushedAt
+        ? `Last push: ${new Date(r.pushedAt).toLocaleString()}`
+        : undefined,
       icon: "clock",
     },
   ];
@@ -117,7 +125,7 @@ const iconMap = {
             :key="stat.label"
             v-motion="fadeUpStaggered(i, 50, 200)"
             class="inline-flex items-center gap-2 rounded-full border border-ink-200 bg-white/70 px-3 py-1.5 backdrop-blur-sm dark:border-ink-800 dark:bg-ink-900/70"
-            :title="`${stat.label}: ${stat.value}`"
+            :title="stat.title ?? `${stat.label}: ${stat.value}`"
           >
             <Icon
               :icon="iconMap[stat.icon]"
@@ -142,7 +150,7 @@ const iconMap = {
 
       <div class="lg:col-span-6">
         <div class="aspect-square w-full max-w-[520px] mx-auto lg:ml-auto">
-          <HulkModel />
+          <HulkModel :src="code.model.src" :label="code.model.label" />
         </div>
       </div>
     </div>
@@ -159,7 +167,7 @@ const iconMap = {
         description="A few of the repositories inside the HULKs GitHub organization."
       />
 
-      <div class="mt-8 grid gap-4 md:grid-cols-3">
+      <div class="mt-8 grid gap-4 md:grid-cols-2">
         <div
           v-for="(r, i) in code.featuredRepos"
           :key="r.name"
