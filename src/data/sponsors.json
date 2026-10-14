@@ -1,0 +1,31 @@
+{
+  "intro": "The HULKs are supported by industry partners, foundations, and the TUHH community. Their contributions make our research, travel, and public outreach possible.",
+  "tiers": [
+    {
+      "label": "Industry Partners",
+      "sponsors": [
+        { "name": "KDAB", "url": "https://www.kdab.com/", "logo": "/sponsors/kdab_logo.png", "description": "Software consultancy specialised in Qt, C++, and 3D." },
+        { "name": "cc.systems", "url": "https://cc.systems/", "logo": "/sponsors/cc_logo_blue_aligned.png", "description": "Engineering services for embedded and connected systems." },
+        { "name": "Dräger", "url": "https://www.draeger.com/de_de/", "logo": "/sponsors/draeger_blue_aligned.png", "description": "Medical and safety technology, Lübeck." },
+        { "name": "GEA", "url": "https://www.gea.com/de/", "logo": "/sponsors/gea_vibrantblue_aligned.png", "description": "Global engineering group for the food and process industries." },
+        { "name": "Haspa", "url": "https://www.haspa.de/de/home.html", "logo": "/sponsors/haspa_aligned.png", "description": "Hamburger Sparkasse." },
+        { "name": "Techniker Krankenkasse", "url": "https://www.tk.de/", "logo": "/sponsors/tk-aligned.png", "description": "German statutory health insurance." }
+      ]
+    },
+    {
+      "label": "Supporters",
+      "sponsors": [
+        { "name": "Bauhaus", "url": "https://www.bauhaus.info/", "logo": "/sponsors/bauhaus_aligned.png" },
+        { "name": "Gegenstrom GmbH", "url": "https://www.gegenstromgmbh.de/", "logo": "/sponsors/gegenstrom_aligned.png" }
+      ]
+    },
+    {
+      "label": "Academic",
+      "sponsors": [
+        { "name": "TUHH", "url": "https://www.tuhh.de/", "logo": "/sponsors/tuhh_aligned.png"},
+        { "name": "TUHH Stiftung", "url": "https://www.tuhh-stiftung.de/", "logo": "/sponsors/stiftung_aligned.png" },
+        { "name": "AStA TUHH", "url": "https://www.asta.tuhh.de/", "logo": "/sponsors/asta_aligned.png" }
+      ]
+    }
+  ]
+}

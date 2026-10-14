@@ -1,0 +1,21 @@
+{
+  "title": "Become a HULK",
+  "paragraphs": [
+    "Are you interested in humanoid robotics, image processing, or artificial intelligence? Do you want to work on interesting research topics in a team of highly motivated students and take part in challenging competitions around the world?",
+    "Write to us in English or German, or join our Telegram bootcamp group to message us directly and hear about events for new recruits.",
+    "Explore our GitHub project board to see the problems we are working on. If you already have some programming experience, you can jump into our code and try one of the available tasks."
+  ],
+  "bootcampUrl": "https://t.me/joinchat/yO0r_5wiZxY5ZWJi",
+  "projectBoardUrl": "https://github.com/orgs/HULKs/projects/2",
+  "codeUrl": "https://github.com/HULKs/hulk",
+  "videos": [
+    {
+      "youtubeId": "j6L6avObNGI",
+      "title": "RoboCup aftermovie 1"
+    },
+    {
+      "youtubeId": "bD5SSVylqps",
+      "title": "RoboCup aftermovie 2"
+    }
+  ]
+}

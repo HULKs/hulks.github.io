@@ -1,0 +1,2556 @@
+{
+  "seasons": [
+    {
+      "year": "2027",
+      "label": "Team 2027 (Nuremberg, Germany)",
+      "photo": "/team/groups/team-2026.jpg",
+      "groups": [
+        {
+          "id": "board",
+          "label": "Executive Board",
+          "description": "Elected representatives responsible for organisation, finances, and external communication.",
+          "members": [
+            {
+              "name": "Lars Knäpper",
+              "role": "Chairman",
+              "email": "larskna@hulks.de",
+              "phone": "+49 152 33649110",
+              "github": "larskna",
+              "avatar": "/team/members/larskna.jpg"
+            },
+            {
+              "name": "Vivienne Schwabe, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "role": "Vice-chairwoman",
+              "email": "vivienne@hulks.de",
+              "github": "vivi-enne",
+              "avatar": "/team/members/vivi-enne.jpg"
+            },
+            {
+              "name": "Luis Scheuch, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "role": "Vice-chairman",
+              "email": "luis@hulks.de",
+              "github": "schluis",
+              "avatar": "/team/members/schluis.jpg"
+            }
+          ]
+        },
+        {
+          "id": "leads",
+          "label": "Leading Developers",
+          "description": "Coordinate the technical direction and mentor developers across the codebase.",
+          "members": [
+            {
+              "name": "Alexander Schmidt, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "alexschmander",
+              "avatar": "/team/members/alexschmander.jpg"
+            },
+            {
+              "name": "Rasmus Mecklenburg, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "rmburg",
+              "avatar": "/team/members/rmburg.jpg"
+            }
+          ]
+        },
+        {
+          "id": "team",
+          "label": "Team",
+          "description": "Active students developing perception, behavior, motion, and infrastructure.",
+          "members": [
+            {
+              "name": "Ben Sampaolo",
+              "study": "Computer Science",
+              "github": "BenSampaolo",
+              "avatar": "/team/members/bensampaolo.png"
+            },
+            {
+              "name": "Damian Kemper",
+              "study": "Computer Science",
+              "github": "CodeByDamianK",
+              "avatar": "/team/members/codebydamiank.png"
+            },
+            {
+              "name": "Darshana Sanjeewan Adikari, M.Sc.",
+              "study": "Mechatronics, Intelligent Systems and Robotics",
+              "github": "tuxbotix",
+              "avatar": "/team/members/tuxbotix.png"
+            },
+            {
+              "name": "Franziska-Sophie Göttsch, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "Franziska-Sophie",
+              "avatar": "/team/members/franziska-sophie.jpg"
+            },
+            {
+              "name": "Johannes Blum",
+              "study": "Computer Science and Engineering",
+              "github": "pejotejo",
+              "avatar": "/team/members/pejotejo.jpg"
+            },
+            {
+              "name": "Jonas Holz",
+              "study": "Data Science",
+              "github": "jonasholz",
+              "avatar": "/team/members/jonasholz.png"
+            },
+            {
+              "name": "Julian Schuler, M.Sc.",
+              "study": "Computer Science",
+              "github": "julianschuler",
+              "avatar": "/team/members/julianschuler.png"
+            },
+            {
+              "name": "Konrad Nölle, B.Sc.",
+              "study": "Computer Science",
+              "github": "knoellle",
+              "avatar": "/team/members/knoellle.png"
+            },
+            {
+              "name": "Maik Rebaum, M.Sc.",
+              "study": "Computer Science",
+              "github": "maikre",
+              "avatar": "/team/members/maikre.jpg"
+            },
+            {
+              "name": "Maximilian Schmidt, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "schmidma",
+              "avatar": "/team/members/schmidma.png"
+            },
+            {
+              "name": "Chanakarn Ariyanukooltorn (Mei), B.Sc.",
+              "study": "Mechanical Engineering and Management",
+              "github": "meiimoon",
+              "avatar": "/team/members/meiimoon.jpg"
+            },
+            {
+              "name": "Ole Felber, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "oleflb",
+              "avatar": "/team/members/oleflb.jpg"
+            },
+            {
+              "name": "Pascal Gleske",
+              "study": "Computer Science",
+              "github": "PasGl",
+              "avatar": "/team/members/pasgl.png"
+            },
+            {
+              "name": "Paul Dargel",
+              "study": "Computer Science and Engineering",
+              "github": "paudar",
+              "avatar": "/team/members/paudar.jpg"
+            },
+            {
+              "name": "Phillip Kammradt",
+              "study": "Computer Science and Engineering",
+              "github": "jackybloxx",
+              "avatar": "/team/members/jackybloxx.jpg"
+            },
+            {
+              "name": "Tizian Holzhausen, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "ITizian",
+              "avatar": "/team/members/itizian.png"
+            }
+          ]
+        },
+        {
+          "id": "supporters",
+          "label": "Supporters",
+          "description": "Former team members supporting research, mentoring, and events.",
+          "members": [
+            {
+              "name": "Erik Schröder, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "malterik",
+              "avatar": "/team/members/malterik.png"
+            },
+            {
+              "name": "Finn Linzer, M.Sc.",
+              "study": "Geodetic Measurement Technology",
+              "avatar": "/team/members/finnlinxxx.png",
+              "github": "finnlinxxx"
+            },
+            {
+              "name": "Finn Poppinga, M.Sc.",
+              "study": "Electrical Engineering",
+              "github": "fpoppinga",
+              "avatar": "/team/members/fpoppinga.png"
+            },
+            {
+              "name": "Jan Plitzkow, M.Sc.",
+              "study": "Mechatronics",
+              "github": "janplitzkow",
+              "avatar": "/team/members/janplitzkow.jpg"
+            },
+            {
+              "name": "Justus Basler, B.Sc.",
+              "study": "General Engineering Science",
+              "github": "justusbasler",
+              "avatar": "/team/members/justusbasler.png"
+            },
+            {
+              "name": "Lasse Peters, M.Sc.",
+              "study": "Mechatronics, Intelligent Systems and Robotics",
+              "github": "lassepe",
+              "avatar": "/team/members/lassepe.png"
+            },
+            {
+              "name": "Nicolas Riebesel, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "nagua",
+              "avatar": "/team/members/nagua.jpg"
+            },
+            {
+              "name": "Patrick Göttsch, M.Sc.",
+              "study": "Energy Systems",
+              "github": "PatrickGoettsch",
+              "avatar": "/team/members/patrickgoettsch.png"
+            },
+            {
+              "name": "René Kost",
+              "study": "Computer Science",
+              "github": "rkost",
+              "avatar": "/team/members/rkost.png"
+            },
+            {
+              "name": "Sven-Ole Voigt",
+              "avatar": null
+            },
+            {
+              "name": "Thomas Schattschneider, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "TSchattschneider",
+              "avatar": "/team/members/tschattschneider.png"
+            },
+            {
+              "name": "Yuria Konda, M.Sc.",
+              "study": "Mechatronics",
+              "github": "ykonda",
+              "avatar": "/team/members/ykonda.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2026",
+      "label": "Team 2026 (Incheon, Korea)",
+      "photo": "/team/groups/team-2026.jpg",
+      "groups": [
+        {
+          "id": "board",
+          "label": "Executive Board",
+          "description": "Elected representatives responsible for organisation, finances, and external communication.",
+          "members": [
+            {
+              "name": "Lars Knäpper",
+              "role": "Chairman",
+              "email": "larskna@hulks.de",
+              "phone": "+49 152 33649110",
+              "github": "larskna",
+              "avatar": "/team/members/larskna.jpg"
+            },
+            {
+              "name": "Ole Felber, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "role": "Vice-chairman",
+              "email": "hulks@oleflb.de",
+              "github": "oleflb",
+              "avatar": "/team/members/oleflb.jpg"
+            },
+            {
+              "name": "Vivienne Schwabe, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "role": "Vice-chairwoman",
+              "email": "vivienne@hulks.de",
+              "github": "vivi-enne",
+              "avatar": "/team/members/vivi-enne.jpg"
+            }
+          ]
+        },
+        {
+          "id": "leads",
+          "label": "Leading Developers",
+          "description": "Coordinate the technical direction and mentor developers across the codebase.",
+          "members": [
+            {
+              "name": "Johannes Blum",
+              "study": "Computer Science and Engineering",
+              "github": "pejotejo",
+              "avatar": "/team/members/pejotejo.jpg"
+            },
+            {
+              "name": "Paul Dargel",
+              "study": "Computer Science and Engineering",
+              "github": "paudar",
+              "avatar": "/team/members/paudar.jpg"
+            }
+          ]
+        },
+        {
+          "id": "team",
+          "label": "Team",
+          "description": "Active students developing perception, behavior, motion, and infrastructure.",
+          "members": [
+            {
+              "name": "Alexander Schmidt, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "alexschmander",
+              "avatar": "/team/members/alexschmander.jpg"
+            },
+            {
+              "name": "Ben Sampaolo",
+              "study": "Computer Science",
+              "github": "BenSampaolo",
+              "avatar": "/team/members/bensampaolo.png"
+            },
+            {
+              "name": "Damian Kemper",
+              "study": "Computer Science",
+              "github": "CodeByDamianK",
+              "avatar": "/team/members/codebydamiank.png"
+            },
+            {
+              "name": "Darshana Sanjeewan Adikari, M.Sc.",
+              "study": "Mechatronics, Intelligent Systems and Robotics",
+              "github": "tuxbotix",
+              "avatar": "/team/members/tuxbotix.png"
+            },
+            {
+              "name": "Franziska-Sophie Göttsch, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "Franziska-Sophie",
+              "avatar": "/team/members/franziska-sophie.jpg"
+            },
+            {
+              "name": "Johannes Blum",
+              "study": "Computer Science and Engineering",
+              "github": "pejotejo",
+              "avatar": "/team/members/pejotejo.jpg"
+            },
+            {
+              "name": "Jonas Holz",
+              "study": "Data Science",
+              "github": "jonasholz",
+              "avatar": "/team/members/jonasholz.png"
+            },
+            {
+              "name": "Julian Schuler, M.Sc.",
+              "study": "Computer Science",
+              "github": "julianschuler",
+              "avatar": "/team/members/julianschuler.png"
+            },
+            {
+              "name": "Konrad Nölle, B.Sc.",
+              "study": "Computer Science",
+              "github": "knoellle",
+              "avatar": "/team/members/knoellle.png"
+            },
+            {
+              "name": "Lars Knäpper",
+              "github": "larskna",
+              "avatar": "/team/members/larskna.jpg"
+            },
+            {
+              "name": "Luis Scheuch, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "schluis",
+              "avatar": "/team/members/schluis.jpg"
+            },
+            {
+              "name": "Maik Rebaum, M.Sc.",
+              "study": "Computer Science",
+              "github": "maikre",
+              "avatar": "/team/members/maikre.jpg"
+            },
+            {
+              "name": "Maximilian Schmidt, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "schmidma",
+              "avatar": "/team/members/schmidma.png"
+            },
+            {
+              "name": "Chanakarn Ariyanukooltorn (Mei), B.Sc.",
+              "study": "Mechanical Engineering and Management",
+              "github": "meiimoon",
+              "avatar": "/team/members/meiimoon.jpg"
+            },
+            {
+              "name": "Ole Felber, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "oleflb",
+              "avatar": "/team/members/oleflb.jpg"
+            },
+            {
+              "name": "Pascal Gleske",
+              "study": "Computer Science",
+              "github": "PasGl",
+              "avatar": "/team/members/pasgl.png"
+            },
+            {
+              "name": "Paul Dargel",
+              "study": "Computer Science and Engineering",
+              "github": "paudar",
+              "avatar": "/team/members/paudar.jpg"
+            },
+            {
+              "name": "Phillip Kammradt",
+              "study": "Computer Science and Engineering",
+              "github": "jackybloxx",
+              "avatar": "/team/members/jackybloxx.jpg"
+            },
+            {
+              "name": "Rasmus Mecklenburg, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "rmburg",
+              "avatar": "/team/members/rmburg.jpg"
+            },
+            {
+              "name": "Tizian Holzhausen, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "ITizian",
+              "avatar": "/team/members/itizian.png"
+            },
+            {
+              "name": "Vivienne Schwabe, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "vivi-enne",
+              "avatar": "/team/members/vivi-enne.jpg"
+            }
+          ]
+        },
+        {
+          "id": "supporters",
+          "label": "Supporters",
+          "description": "Former team members supporting research, mentoring, and events.",
+          "members": [
+            {
+              "name": "Erik Schröder, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "malterik",
+              "avatar": "/team/members/malterik.png"
+            },
+            {
+              "name": "Finn Linzer, M.Sc.",
+              "study": "Geodetic Measurement Technology",
+              "avatar": "/team/members/finnlinxxx.png",
+              "github": "finnlinxxx"
+            },
+            {
+              "name": "Finn Poppinga, M.Sc.",
+              "study": "Electrical Engineering",
+              "github": "fpoppinga",
+              "avatar": "/team/members/fpoppinga.png"
+            },
+            {
+              "name": "Jan Plitzkow, M.Sc.",
+              "study": "Mechatronics",
+              "github": "janplitzkow",
+              "avatar": "/team/members/janplitzkow.jpg"
+            },
+            {
+              "name": "Justus Basler, B.Sc.",
+              "study": "General Engineering Science",
+              "github": "justusbasler",
+              "avatar": "/team/members/justusbasler.png"
+            },
+            {
+              "name": "Lasse Peters, M.Sc.",
+              "study": "Mechatronics, Intelligent Systems and Robotics",
+              "github": "lassepe",
+              "avatar": "/team/members/lassepe.png"
+            },
+            {
+              "name": "Nicolas Riebesel, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "nagua",
+              "avatar": "/team/members/nagua.jpg"
+            },
+            {
+              "name": "Patrick Göttsch, M.Sc.",
+              "study": "Energy Systems",
+              "github": "PatrickGoettsch",
+              "avatar": "/team/members/patrickgoettsch.png"
+            },
+            {
+              "name": "René Kost",
+              "study": "Computer Science",
+              "github": "rkost",
+              "avatar": "/team/members/rkost.png"
+            },
+            {
+              "name": "Sven-Ole Voigt",
+              "avatar": null
+            },
+            {
+              "name": "Thomas Schattschneider, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "TSchattschneider",
+              "avatar": "/team/members/tschattschneider.png"
+            },
+            {
+              "name": "Yuria Konda, M.Sc.",
+              "study": "Mechatronics",
+              "github": "ykonda",
+              "avatar": "/team/members/ykonda.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2025",
+      "label": "Team 2025 (Salvador, Brazil)",
+      "photo": "/team/groups/team-2025.jpg",
+      "groups": [
+        {
+          "id": "executive-board",
+          "label": "Executive board",
+          "members": [
+            {
+              "name": "Lars Knäpper",
+              "role": "Chairman",
+              "github": "larskna",
+              "avatar": "/team/members/larskna.jpg"
+            },
+            {
+              "name": "Chanakarn Ariyanukooltorn (Mei), B.Sc.",
+              "role": "Vice-chairwoman",
+              "study": "Mechanical Engineering and Management",
+              "github": "meiimoon",
+              "avatar": "/team/members/meiimoon.jpg"
+            },
+            {
+              "name": "Vivienne Schwabe, B.Sc.",
+              "role": "Vice-chairwoman",
+              "study": "Computer Science and Engineering",
+              "github": "vivi-enne",
+              "avatar": "/team/members/vivi-enne.jpg"
+            }
+          ]
+        },
+        {
+          "id": "leading-developers",
+          "label": "Leading developers",
+          "members": [
+            {
+              "name": "Ole Felber, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "oleflb",
+              "avatar": "/team/members/oleflb.jpg"
+            },
+            {
+              "name": "Johannes Blum",
+              "study": "Computer Science and Engineering",
+              "github": "pejotejo",
+              "avatar": "/team/members/pejotejo.jpg"
+            }
+          ]
+        },
+        {
+          "id": "team",
+          "label": "Team",
+          "members": [
+            {
+              "name": "Alexander Schmidt B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "alexschmander",
+              "avatar": "/team/members/alexschmander.jpg"
+            },
+            {
+              "name": "Damian Kemper",
+              "study": "Computer Science",
+              "github": "CodeByDamianK",
+              "avatar": "/team/members/codebydamiank.png"
+            },
+            {
+              "name": "Darshana Sanjeewan Adikari, M.Sc.",
+              "study": "Mechatronics, Intelligent Systems and Robotics",
+              "github": "tuxbotix",
+              "avatar": "/team/members/tuxbotix.png"
+            },
+            {
+              "name": "Fransiska-Sophie, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "Franziska-Sophie",
+              "avatar": "/team/members/franziska-sophie.jpg"
+            },
+            {
+              "name": "Johannes Blum",
+              "study": "Computer Science and Engineering",
+              "github": "pejotejo",
+              "avatar": "/team/members/pejotejo.jpg"
+            },
+            {
+              "name": "Jonas Holz",
+              "study": "Data Science",
+              "github": "jonasholz",
+              "avatar": "/team/members/jonasholz.png"
+            },
+            {
+              "name": "Josefine Petrick, B.Sc.",
+              "study": "Robotics, Cognition, Intelligence",
+              "github": "ichbinjosi",
+              "avatar": "/team/members/ichbinjosi.png"
+            },
+            {
+              "name": "Julian Schuler, B.Sc.",
+              "study": "Computer Science",
+              "github": "julianschuler",
+              "avatar": "/team/members/julianschuler.png"
+            },
+            {
+              "name": "Konrad Nölle, B.Sc.",
+              "study": "Computer Science",
+              "github": "knoellle",
+              "avatar": "/team/members/knoellle.png"
+            },
+            {
+              "name": "Lars Knäpper",
+              "github": "larskna",
+              "avatar": "/team/members/larskna.jpg"
+            },
+            {
+              "name": "Luis Scheuch, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "schluis",
+              "avatar": "/team/members/schluis.jpg"
+            },
+            {
+              "name": "Maik Rebaum, B.Sc.",
+              "study": "Computer Science",
+              "github": "maikre",
+              "avatar": "/team/members/maikre.jpg"
+            },
+            {
+              "name": "Maximilian Schmidt, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "schmidma",
+              "avatar": "/team/members/schmidma.png"
+            },
+            {
+              "name": "Chanakarn Ariyanukooltorn (Mei), B.Sc.",
+              "study": "Mechanical Engineering and Management",
+              "github": "meiimoon",
+              "avatar": "/team/members/meiimoon.jpg"
+            },
+            {
+              "name": "Ole Felber, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "oleflb",
+              "avatar": "/team/members/oleflb.jpg"
+            },
+            {
+              "name": "Pascal Gleske",
+              "study": "Computer Science",
+              "github": "PasGl",
+              "avatar": "/team/members/pasgl.png"
+            },
+            {
+              "name": "Paul Dargel",
+              "study": "Computer Science and Engineering",
+              "github": "paudar",
+              "avatar": "/team/members/paudar.jpg"
+            },
+            {
+              "name": "Phillip Kammradt",
+              "study": "Computer Science and Engineering",
+              "github": "jackybloxx",
+              "avatar": "/team/members/jackybloxx.jpg"
+            },
+            {
+              "name": "Rasmus Mecklenburg, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "rmburg",
+              "avatar": "/team/members/rmburg.jpg"
+            },
+            {
+              "name": "Vivienne Schwabe, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "vivi-enne",
+              "avatar": "/team/members/vivi-enne.jpg"
+            }
+          ]
+        },
+        {
+          "id": "supporters",
+          "label": "Supporters",
+          "members": [
+            {
+              "name": "Erik Schröder, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "malterik",
+              "avatar": "/team/members/malterik.png"
+            },
+            {
+              "name": "Finn Linzer, M.Sc.",
+              "study": "Geodetic Measurement Technology"
+            },
+            {
+              "name": "Finn Poppinga, M.Sc.",
+              "study": "Electrical Engineering",
+              "github": "fpoppinga",
+              "avatar": "/team/members/fpoppinga.png"
+            },
+            {
+              "name": "Jan Plitzkow, M.Sc.",
+              "study": "Mechatronics",
+              "github": "janplitzkow",
+              "avatar": "/team/members/janplitzkow.jpg"
+            },
+            {
+              "name": "Justus Basler, B.Sc.",
+              "study": "General Engineering Science",
+              "github": "justusbasler",
+              "avatar": "/team/members/justusbasler.png"
+            },
+            {
+              "name": "Lasse Peters, M.Sc.",
+              "study": "Mechatronics, Intelligent Systems and Robotics",
+              "github": "lassepe",
+              "avatar": "/team/members/lassepe.png"
+            },
+            {
+              "name": "Nicolas Riebesel, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "nagua",
+              "avatar": "/team/members/nagua.jpg"
+            },
+            {
+              "name": "Patrick Göttsch, M.Sc.",
+              "study": "Energy Systems",
+              "github": "PatrickGoettsch",
+              "avatar": "/team/members/patrickgoettsch.png"
+            },
+            {
+              "name": "René Kost",
+              "study": "Computer Science",
+              "github": "rkost",
+              "avatar": "/team/members/rkost.png"
+            },
+            {
+              "name": "Sven-Ole Voigt"
+            },
+            {
+              "name": "Thomas Schattschneider, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "TSchattschneider",
+              "avatar": "/team/members/tschattschneider.png"
+            },
+            {
+              "name": "Yuria Konda, M.Sc.",
+              "study": "Mechatronics",
+              "github": "ykonda",
+              "avatar": "/team/members/ykonda.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2024",
+      "label": "Team 2024 (Eindhoven, Netherlands)",
+      "photo": "/team/groups/team-2024.jpg",
+      "groups": [
+        {
+          "id": "executive-board",
+          "label": "Executive board",
+          "members": [
+            {
+              "name": "Patrick Göttsch, M.Sc.",
+              "role": "Chairman",
+              "study": "Energy Systems",
+              "github": "PatrickGoettsch",
+              "avatar": "/team/members/patrickgoettsch.png"
+            },
+            {
+              "name": "Vivienne Schwabe, B.Sc.",
+              "role": "Vice-chairwoman",
+              "study": "Computer Science and Engineering",
+              "github": "vivi-enne",
+              "avatar": "/team/members/vivi-enne.jpg"
+            },
+            {
+              "name": "Maik Rebaum, B.Sc.",
+              "role": "Vice-chairman",
+              "study": "Computer Science",
+              "github": "MaikRe",
+              "avatar": "/team/members/maikre.jpg"
+            }
+          ]
+        },
+        {
+          "id": "leading-developers",
+          "label": "Leading developers",
+          "members": [
+            {
+              "name": "Luis Scheuch, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "schluis",
+              "avatar": "/team/members/schluis.jpg"
+            },
+            {
+              "name": "Ole Felber, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "oleflb",
+              "avatar": "/team/members/oleflb.jpg"
+            }
+          ]
+        },
+        {
+          "id": "developers",
+          "label": "Developers",
+          "members": [
+            {
+              "name": "Andrea Essig",
+              "study": "Computer Science and Engineering",
+              "github": "anesssi",
+              "avatar": "/team/members/anesssi.png"
+            },
+            {
+              "name": "Darshana Sanjeewan Adikari, M.Sc.",
+              "study": "Mechatronics, Intelligent Systems and Robotics",
+              "github": "tuxbotix",
+              "avatar": "/team/members/tuxbotix.png"
+            },
+            {
+              "name": "Frida Miehe",
+              "study": "Computer Science",
+              "github": "fried777",
+              "avatar": "/team/members/fried777.png"
+            },
+            {
+              "name": "Hendrik Sieck, M.Sc.",
+              "study": "Computer Science",
+              "github": "h3ndrk",
+              "avatar": "/team/members/h3ndrk.png"
+            },
+            {
+              "name": "Irwin Lim Jhing Hao, B.Sc.",
+              "study": "Electrical Engineering",
+              "github": "Irwinlim1097",
+              "avatar": "/team/members/irwinlim1097.png"
+            },
+            {
+              "name": "Joelle Hohwiller",
+              "study": "Computer Science",
+              "github": "callmeelle",
+              "avatar": "/team/members/callmeelle.png"
+            },
+            {
+              "name": "Johannes Blum",
+              "study": "Computer Science and Engineering",
+              "github": "pejotejo",
+              "avatar": "/team/members/pejotejo.jpg"
+            },
+            {
+              "name": "Jonas Holz",
+              "study": "Data Science",
+              "github": "jonasholz",
+              "avatar": "/team/members/jonasholz.png"
+            },
+            {
+              "name": "Jonathan Hellwig, M.Sc.",
+              "study": "Technomathematics",
+              "github": "jonathan-hellwig",
+              "avatar": "/team/members/jonathan-hellwig.png"
+            },
+            {
+              "name": "Josefine Petrick, B.Sc.",
+              "study": "Robotics and Autonomous Systems",
+              "github": "ichbinjosi",
+              "avatar": "/team/members/ichbinjosi.png"
+            },
+            {
+              "name": "Julian Schuler, B.Sc.",
+              "study": "Computer Science",
+              "github": "julianschuler",
+              "avatar": "/team/members/julianschuler.png"
+            },
+            {
+              "name": "Konrad Nölle, B.Sc.",
+              "study": "Computer Science",
+              "github": "knoellle",
+              "avatar": "/team/members/knoellle.png"
+            },
+            {
+              "name": "Lars Knäpper",
+              "study": "Computer Science",
+              "github": "larskna",
+              "avatar": "/team/members/larskna.jpg"
+            },
+            {
+              "name": "Maik Rebaum, B.Sc.",
+              "study": "Computer Science",
+              "github": "maikre",
+              "avatar": "/team/members/maikre.jpg"
+            },
+            {
+              "name": "Maximilian Schmidt, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "schmidma",
+              "avatar": "/team/members/schmidma.png"
+            },
+            {
+              "name": "Pascal Gleske",
+              "study": "Computer Science",
+              "github": "PasGl",
+              "avatar": "/team/members/pasgl.png"
+            },
+            {
+              "name": "Patrick Göttsch, M.Sc.",
+              "study": "Energy Systems",
+              "github": "PatrickGoettsch",
+              "avatar": "/team/members/patrickgoettsch.png"
+            },
+            {
+              "name": "Paul Roth, B.Sc.",
+              "study": "Computer Science",
+              "github": "pakonro",
+              "avatar": "/team/members/pakonro.png"
+            },
+            {
+              "name": "Phillip Kammradt",
+              "study": "Computer Science and Engineering",
+              "github": "jackybloxx",
+              "avatar": "/team/members/jackybloxx.jpg"
+            },
+            {
+              "name": "Rasmus Mecklenburg, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "rmburg",
+              "avatar": "/team/members/rmburg.jpg"
+            },
+            {
+              "name": "Vivienne Schwabe, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "vivi-enne",
+              "avatar": "/team/members/vivi-enne.jpg"
+            }
+          ]
+        },
+        {
+          "id": "organisation",
+          "label": "Organisation",
+          "members": [
+            {
+              "name": "Chanakarn Ariyanukooltorn (Mei), B.Sc.",
+              "study": "Mechanical Engineering and Management",
+              "github": "meiimoon",
+              "avatar": "/team/members/meiimoon.jpg"
+            },
+            {
+              "name": "Patrick Göttsch, M.Sc.",
+              "study": "Energy Systems",
+              "github": "PatrickGoettsch",
+              "avatar": "/team/members/patrickgoettsch.png"
+            }
+          ]
+        },
+        {
+          "id": "supporters",
+          "label": "Supporters",
+          "members": [
+            {
+              "name": "Erik Schröder, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "malterik",
+              "avatar": "/team/members/malterik.png"
+            },
+            {
+              "name": "Finn Linzer, M.Sc.",
+              "study": "Geodetic Measurement Technology"
+            },
+            {
+              "name": "Finn Poppinga, M.Sc.",
+              "study": "Electrical Engineering",
+              "github": "fpoppinga",
+              "avatar": "/team/members/fpoppinga.png"
+            },
+            {
+              "name": "Jan Plitzkow, M.Sc.",
+              "study": "Mechatronics",
+              "github": "janplitzkow",
+              "avatar": "/team/members/janplitzkow.jpg"
+            },
+            {
+              "name": "Justus Basler, B.Sc.",
+              "study": "General Engineering Science",
+              "github": "justusbasler",
+              "avatar": "/team/members/justusbasler.png"
+            },
+            {
+              "name": "Lasse Peters, M.Sc.",
+              "study": "Mechatronics, Intelligent Systems and Robotics",
+              "github": "lassepe",
+              "avatar": "/team/members/lassepe.png"
+            },
+            {
+              "name": "Nicolas Riebesel, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "nagua",
+              "avatar": "/team/members/nagua.jpg"
+            },
+            {
+              "name": "René Kost",
+              "study": "Computer Science",
+              "github": "rkost",
+              "avatar": "/team/members/rkost.png"
+            },
+            {
+              "name": "Sven-Ole Voigt"
+            },
+            {
+              "name": "Thomas Schattschneider, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "TSchattschneider",
+              "avatar": "/team/members/tschattschneider.png"
+            },
+            {
+              "name": "Yuria Konda, M.Sc.",
+              "study": "Mechatronics",
+              "github": "ykonda",
+              "avatar": "/team/members/ykonda.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2023",
+      "label": "Team 2023 (Bordeaux, France)",
+      "photo": "/team/groups/team-2023.jpg",
+      "groups": [
+        {
+          "id": "executive-board",
+          "label": "Executive board",
+          "members": [
+            {
+              "name": "Patrick Göttsch, M.Sc.",
+              "role": "Chairman",
+              "study": "Energy Systems",
+              "github": "PatrickGoettsch",
+              "avatar": "/team/members/patrickgoettsch.png"
+            },
+            {
+              "name": "Maximilian Schmidt, B.Sc.",
+              "role": "1st vice-chairman",
+              "study": "Computer Science and Engineering",
+              "github": "schmidma",
+              "avatar": "/team/members/schmidma.png"
+            },
+            {
+              "name": "Pascal Gleske",
+              "role": "2nd vice-chairman",
+              "study": "Computer Science",
+              "github": "PasGl",
+              "avatar": "/team/members/pasgl.png"
+            }
+          ]
+        },
+        {
+          "id": "leading-developers",
+          "label": "Leading developers",
+          "members": [
+            {
+              "name": "Konrad Nölle",
+              "study": "Computer Science",
+              "github": "knoellle",
+              "avatar": "/team/members/knoellle.png"
+            },
+            {
+              "name": "Luis Scheuch",
+              "study": "Computer Science and Engineering",
+              "github": "schluis",
+              "avatar": "/team/members/schluis.jpg"
+            }
+          ]
+        },
+        {
+          "id": "developers",
+          "label": "Developers",
+          "members": [
+            {
+              "name": "Alexandra Schirrmacher",
+              "study": "Computer Science and Engineering",
+              "github": "alexschirr",
+              "avatar": "/team/members/alexschirr.png"
+            },
+            {
+              "name": "Anna Relógio Stauber",
+              "study": "Mechatronics",
+              "github": "anna566",
+              "avatar": "/team/members/anna566.png"
+            },
+            {
+              "name": "Bennett Wetters",
+              "study": "Applied Computer Science",
+              "github": "Bendodroid",
+              "avatar": "/team/members/bendodroid.png"
+            },
+            {
+              "name": "Darshana Sanjeewan Adikari, M.Sc.",
+              "study": "Mechatronics, Intelligent Systems and Robotics",
+              "github": "tuxbotix",
+              "avatar": "/team/members/tuxbotix.png"
+            },
+            {
+              "name": "Hendrik Sieck, M.Sc",
+              "study": "Computer Science",
+              "github": "h3ndrk",
+              "avatar": "/team/members/h3ndrk.png"
+            },
+            {
+              "name": "Jonas Holz",
+              "study": "Data Science",
+              "github": "jonasholz",
+              "avatar": "/team/members/jonasholz.png"
+            },
+            {
+              "name": "Jonathan Hellwig, M.Sc.",
+              "study": "Technomathematics",
+              "github": "jonathan-hellwig",
+              "avatar": "/team/members/jonathan-hellwig.png"
+            },
+            {
+              "name": "Julian Schuler, B.Sc.",
+              "study": "Computer Science",
+              "github": "julianschuler",
+              "avatar": "/team/members/julianschuler.png"
+            },
+            {
+              "name": "Luis Scheuch",
+              "study": "Computer Science and Engineering",
+              "github": "schluis",
+              "avatar": "/team/members/schluis.jpg"
+            },
+            {
+              "name": "Maik Rebaum, B.Sc.",
+              "study": "Computer Science",
+              "github": "maikre",
+              "avatar": "/team/members/maikre.jpg"
+            },
+            {
+              "name": "Maximilian Schmidt, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "schmidma",
+              "avatar": "/team/members/schmidma.png"
+            },
+            {
+              "name": "Ole Felber, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "oleflb",
+              "avatar": "/team/members/oleflb.jpg"
+            },
+            {
+              "name": "Pascal Gleske",
+              "study": "Computer Science",
+              "github": "PasGl",
+              "avatar": "/team/members/pasgl.png"
+            },
+            {
+              "name": "Patrick Göttsch, M.Sc.",
+              "study": "Energy Systems",
+              "github": "PatrickGoettsch",
+              "avatar": "/team/members/patrickgoettsch.png"
+            },
+            {
+              "name": "Paul Roth, B.Sc",
+              "study": "Computer Science",
+              "github": "pakonro",
+              "avatar": "/team/members/pakonro.png"
+            },
+            {
+              "name": "Rasmus Mecklenburg, B.Sc",
+              "study": "Computer Science and Engineering",
+              "github": "rmburg",
+              "avatar": "/team/members/rmburg.jpg"
+            },
+            {
+              "name": "Vivienne Schwabe, B.Sc",
+              "study": "Computer Science and Engineering",
+              "github": "vivi-enne",
+              "avatar": "/team/members/vivi-enne.jpg"
+            }
+          ]
+        },
+        {
+          "id": "organisation",
+          "label": "Organisation",
+          "members": [
+            {
+              "name": "Chanakarn Ariyanukooltorn (Mei), B.Sc.",
+              "study": "Mechanical Engineering and Management",
+              "github": "meiimoon",
+              "avatar": "/team/members/meiimoon.jpg"
+            },
+            {
+              "name": "Patrick Göttsch, M.Sc.",
+              "study": "Energy Systems",
+              "github": "PatrickGoettsch",
+              "avatar": "/team/members/patrickgoettsch.png"
+            }
+          ]
+        },
+        {
+          "id": "supporters",
+          "label": "Supporters",
+          "members": [
+            {
+              "name": "Erik Schröder, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "malterik",
+              "avatar": "/team/members/malterik.png"
+            },
+            {
+              "name": "Finn Linzer, M.Sc.",
+              "study": "Geodetic Measurement Technology"
+            },
+            {
+              "name": "Finn Poppinga, M.Sc.",
+              "study": "Electrical Engineering",
+              "github": "fpoppinga",
+              "avatar": "/team/members/fpoppinga.png"
+            },
+            {
+              "name": "Jan Plitzkow, M.Sc.",
+              "study": "Mechatronics",
+              "github": "janplitzkow",
+              "avatar": "/team/members/janplitzkow.jpg"
+            },
+            {
+              "name": "Justus Basler, B.Sc.",
+              "study": "General Engineering Science",
+              "github": "justusbasler",
+              "avatar": "/team/members/justusbasler.png"
+            },
+            {
+              "name": "Lasse Peters, M.Sc.",
+              "study": "Mechatronics, Intelligent Systems and Robotics",
+              "github": "lassepe",
+              "avatar": "/team/members/lassepe.png"
+            },
+            {
+              "name": "Nicolas Riebesel, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "nagua",
+              "avatar": "/team/members/nagua.jpg"
+            },
+            {
+              "name": "Sven-Ole Voigt"
+            },
+            {
+              "name": "Thomas Schattschneider, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "TSchattschneider",
+              "avatar": "/team/members/tschattschneider.png"
+            },
+            {
+              "name": "Yuria Konda, M.Sc.",
+              "study": "Mechatronics",
+              "github": "ykonda",
+              "avatar": "/team/members/ykonda.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2022",
+      "label": "Team 2022 (Bangkok, Thailand)",
+      "photo": "/team/groups/robocup-2022.jpg",
+      "groups": [
+        {
+          "id": "executive-board",
+          "label": "Executive board",
+          "members": [
+            {
+              "name": "Patrick Göttsch, M.Sc.",
+              "role": "Chairman",
+              "study": "Energy Systems",
+              "github": "PatrickGoettsch",
+              "avatar": "/team/members/patrickgoettsch.png"
+            },
+            {
+              "name": "Maximilian Schmidt, B.Sc.",
+              "role": "1st vice-chairman",
+              "study": "Computer Science",
+              "github": "schmidma",
+              "avatar": "/team/members/schmidma.png"
+            },
+            {
+              "name": "Pascal Gleske",
+              "role": "2nd vice-chairman",
+              "study": "Computer Science",
+              "github": "PasGl",
+              "avatar": "/team/members/pasgl.png"
+            }
+          ]
+        },
+        {
+          "id": "leading-developers",
+          "label": "Leading developers",
+          "members": [
+            {
+              "name": "Konrad Nölle",
+              "study": "Computer Science",
+              "github": "knoellle",
+              "avatar": "/team/members/knoellle.png"
+            },
+            {
+              "name": "Hendrik Sieck, B.Sc.",
+              "study": "Computer Science",
+              "github": "h3ndrk",
+              "avatar": "/team/members/h3ndrk.png"
+            }
+          ]
+        },
+        {
+          "id": "developers",
+          "label": "Developers",
+          "members": [
+            {
+              "name": "Aishwarya Krishnamurthy, B.Sc.",
+              "study": "Mechatronics",
+              "github": "Aishkrish18",
+              "avatar": "/team/members/aishkrish18.png"
+            },
+            {
+              "name": "Alexandra Schirrmacher",
+              "study": "Computer Science and Engineering",
+              "github": "alexschirr",
+              "avatar": "/team/members/alexschirr.png"
+            },
+            {
+              "name": "Andrea Essig",
+              "study": "Computer Science and Engineering",
+              "github": "anesssi",
+              "avatar": "/team/members/anesssi.png"
+            },
+            {
+              "name": "Bennett Wetters",
+              "study": "Computer Science",
+              "github": "Bendodroid",
+              "avatar": "/team/members/bendodroid.png"
+            },
+            {
+              "name": "Darshana Adikari, M.Sc.",
+              "study": "Mechatronics, Intelligent Systems and Robotics",
+              "github": "tuxbotix",
+              "avatar": "/team/members/tuxbotix.png"
+            },
+            {
+              "name": "Ellahe Khosravi",
+              "study": "Computer Science and Engineering",
+              "github": "Sweellie",
+              "avatar": "/team/members/sweellie.png"
+            },
+            {
+              "name": "Jonathan Hellwig, B.Sc.",
+              "study": "Technomathematics",
+              "github": "jonathan-hellwig",
+              "avatar": "/team/members/jonathan-hellwig.png"
+            },
+            {
+              "name": "Konrad Mösch",
+              "study": "Computer Science and Engineering",
+              "github": "konradmoesch",
+              "avatar": "/team/members/konradmoesch.png"
+            },
+            {
+              "name": "Lara Kaiser",
+              "study": "Computer Science and Engineering",
+              "github": "LK-20s",
+              "avatar": "/team/members/lk-20s.png"
+            },
+            {
+              "name": "Luis Scheuch",
+              "study": "Computer Science and Engineering",
+              "github": "schluis",
+              "avatar": "/team/members/schluis.jpg"
+            },
+            {
+              "name": "Marvin Steinmeister",
+              "study": "Technomathematics",
+              "github": "MarvinSteinmeister",
+              "avatar": "/team/members/marvinsteinmeister.png"
+            },
+            {
+              "name": "Maximilian Schmidt, B.Sc.",
+              "study": "Computer Science",
+              "github": "schmidma",
+              "avatar": "/team/members/schmidma.png"
+            },
+            {
+              "name": "Mayra Sharif",
+              "study": "Computer Science",
+              "github": "MayraSha",
+              "avatar": "/team/members/mayrasha.png"
+            },
+            {
+              "name": "Pascal Gleske",
+              "study": "Computer Science",
+              "github": "PasGl",
+              "avatar": "/team/members/pasgl.png"
+            },
+            {
+              "name": "Patrick Göttsch, M.Sc.",
+              "study": "Energy Systems",
+              "github": "PatrickGoettsch",
+              "avatar": "/team/members/patrickgoettsch.png"
+            }
+          ]
+        },
+        {
+          "id": "organisation",
+          "label": "Organisation",
+          "members": [
+            {
+              "name": "Patrick Göttsch, M.Sc.",
+              "study": "Energy Systems",
+              "github": "PatrickGoettsch",
+              "avatar": "/team/members/patrickgoettsch.png"
+            }
+          ]
+        },
+        {
+          "id": "supporters",
+          "label": "Supporters",
+          "members": [
+            {
+              "name": "Erik Schröder, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "malterik",
+              "avatar": "/team/members/malterik.png"
+            },
+            {
+              "name": "Finn Linzer, M.Sc.",
+              "study": "Geodetic Measurement Technology"
+            },
+            {
+              "name": "Finn Poppinga, M.Sc.",
+              "study": "Electrical Engineering",
+              "github": "fpoppinga",
+              "avatar": "/team/members/fpoppinga.png"
+            },
+            {
+              "name": "Jan Plitzkow, M.Sc.",
+              "study": "Mechatronics",
+              "github": "janplitzkow",
+              "avatar": "/team/members/janplitzkow.jpg"
+            },
+            {
+              "name": "Justus Basler, B.Sc.",
+              "study": "General Engineering Science",
+              "github": "justusbasler",
+              "avatar": "/team/members/justusbasler.png"
+            },
+            {
+              "name": "Lasse Peters, M.Sc.",
+              "study": "Mechatronics, Intelligent Systems and Robotics",
+              "github": "lassepe",
+              "avatar": "/team/members/lassepe.png"
+            },
+            {
+              "name": "Nicolas Riebesel, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "nagua",
+              "avatar": "/team/members/nagua.jpg"
+            },
+            {
+              "name": "Sven-Ole Voigt"
+            },
+            {
+              "name": "Thomas Schattschneider, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "TSchattschneider",
+              "avatar": "/team/members/tschattschneider.png"
+            },
+            {
+              "name": "Yuria Konda, M.Sc.",
+              "study": "Mechatronics",
+              "github": "ykonda",
+              "avatar": "/team/members/ykonda.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2020/21",
+      "label": "Team 2020/2021 (Bordeaux, France)",
+      "photo": "/team/groups/robocup-2021.jpg",
+      "groups": [
+        {
+          "id": "executive-board",
+          "label": "Executive board",
+          "members": [
+            {
+              "name": "Patrick Göttsch, M.Sc.",
+              "role": "Chairman",
+              "study": "Energy Systems",
+              "github": "PatrickGoettsch",
+              "avatar": "/team/members/patrickgoettsch.png"
+            },
+            {
+              "name": "Maximilian Schmidt, B.Sc.",
+              "role": "1st vice-chairman",
+              "study": "Computer Science",
+              "github": "schmidma",
+              "avatar": "/team/members/schmidma.png"
+            },
+            {
+              "name": "Pascal Gleske",
+              "role": "2nd vice-chairman",
+              "study": "Computer Science",
+              "github": "PasGl",
+              "avatar": "/team/members/pasgl.png"
+            }
+          ]
+        },
+        {
+          "id": "leading-developers",
+          "label": "Leading developers",
+          "members": [
+            {
+              "name": "Maximilian Schmidt, B.Sc.",
+              "study": "Computer Science",
+              "github": "schmidma",
+              "avatar": "/team/members/schmidma.png"
+            },
+            {
+              "name": "Pascal Gleske",
+              "study": "Computer Science",
+              "github": "PasGl",
+              "avatar": "/team/members/pasgl.png"
+            }
+          ]
+        },
+        {
+          "id": "developers",
+          "label": "Developers",
+          "members": [
+            {
+              "name": "Andrea Essig",
+              "study": "Computer Science and Engineering",
+              "github": "anesssi",
+              "avatar": "/team/members/anesssi.png"
+            },
+            {
+              "name": "Bennett Wetters",
+              "study": "Computer Science",
+              "github": "Bendodroid",
+              "avatar": "/team/members/bendodroid.png"
+            },
+            {
+              "name": "Chris Kahlefendt, M.Sc.",
+              "study": "Mechatronics, Intelligent Systems and Robotics",
+              "github": "kafendt",
+              "avatar": "/team/members/kafendt.png"
+            },
+            {
+              "name": "Darshana Adikari, M.Sc.",
+              "study": "Mechatronics, Intelligent Systems and Robotics",
+              "github": "tuxbotix",
+              "avatar": "/team/members/tuxbotix.png"
+            },
+            {
+              "name": "Ellahe Khosravi",
+              "study": "Computer Science and Engineering",
+              "github": "Sweellie",
+              "avatar": "/team/members/sweellie.png"
+            },
+            {
+              "name": "Erik Schröder, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "malterik",
+              "avatar": "/team/members/malterik.png"
+            },
+            {
+              "name": "Felix Warmuth, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "fwarmuth",
+              "avatar": "/team/members/fwarmuth.png"
+            },
+            {
+              "name": "Felix Wege, M.Sc.",
+              "study": "Mechatronics, Intelligent Systems and Robotics",
+              "github": "felixwege",
+              "avatar": "/team/members/felixwege.png"
+            },
+            {
+              "name": "Finn Poppinga, M.Sc.",
+              "study": "Electrical Engineering",
+              "github": "fpoppinga",
+              "avatar": "/team/members/fpoppinga.png"
+            },
+            {
+              "name": "Hendrik Sieck, B.Sc.",
+              "study": "Computer Science",
+              "github": "h3ndrk",
+              "avatar": "/team/members/h3ndrk.png"
+            },
+            {
+              "name": "Justus Basler, B.Sc.",
+              "study": "General Engineering Science",
+              "github": "justusbasler",
+              "avatar": "/team/members/justusbasler.png"
+            },
+            {
+              "name": "Konrad Nölle",
+              "study": "Computer Science",
+              "github": "knoellle",
+              "avatar": "/team/members/knoellle.png"
+            },
+            {
+              "name": "Lasse Grefe",
+              "study": "Computer Science and Engineering",
+              "github": "Grefendor",
+              "avatar": "/team/members/grefendor.png"
+            },
+            {
+              "name": "Lasse Peters, M.Sc.",
+              "study": "Mechatronics, Intelligent Systems and Robotics",
+              "github": "lassepe",
+              "avatar": "/team/members/lassepe.png"
+            },
+            {
+              "name": "Mayra Sharif",
+              "study": "Computer Science",
+              "github": "MayraSha",
+              "avatar": "/team/members/mayrasha.png"
+            },
+            {
+              "name": "Nicolas Riebesel, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "nagua",
+              "avatar": "/team/members/nagua.jpg"
+            },
+            {
+              "name": "Paul Bergmann",
+              "study": "Computer Science",
+              "github": "Mathollegah",
+              "avatar": "/team/members/mathollegah.png"
+            },
+            {
+              "name": "René Kost",
+              "study": "Computer Science",
+              "github": "rkost",
+              "avatar": "/team/members/rkost.png"
+            },
+            {
+              "name": "Sönke Krauth",
+              "study": "Computer Science",
+              "github": "soenketk",
+              "avatar": "/team/members/soenketk.png"
+            },
+            {
+              "name": "Thomas Schattschneider, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "TSchattschneider",
+              "avatar": "/team/members/tschattschneider.png"
+            },
+            {
+              "name": "Yuria Konda, M.Sc.",
+              "study": "Mechatronics",
+              "github": "ykonda",
+              "avatar": "/team/members/ykonda.png"
+            }
+          ]
+        },
+        {
+          "id": "organisation",
+          "label": "Organisation",
+          "members": [
+            {
+              "name": "Nathali Schmid, M.Sc.",
+              "study": "Process Engineering"
+            }
+          ]
+        },
+        {
+          "id": "supporters",
+          "label": "Supporters",
+          "members": [
+            {
+              "name": "Felix Gutzmann"
+            },
+            {
+              "name": "Florian Bergmann, B.Sc.",
+              "study": "General Engineering Science"
+            },
+            {
+              "name": "Georg Felbinger, M.Sc.",
+              "study": "Computer Science",
+              "github": "gfelbing",
+              "avatar": "/team/members/gfelbing.png"
+            },
+            {
+              "name": "Jan Plitzkow, M.Sc.",
+              "study": "Mechatronics",
+              "github": "janplitzkow",
+              "avatar": "/team/members/janplitzkow.jpg"
+            },
+            {
+              "name": "Pascal Loth, M.Sc.",
+              "study": "Computer Science and Engineering, Systems Engineering and Robotics",
+              "github": "ploth",
+              "avatar": "/team/members/ploth.png"
+            },
+            {
+              "name": "Robert Oehlmann, B.Sc.",
+              "study": "Computer Science",
+              "github": "robofish",
+              "avatar": "/team/members/robofish.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2019",
+      "label": "Team 2019 (Sydney, Australia)",
+      "photo": "/team/groups/robocup-2019.jpg",
+      "groups": [
+        {
+          "id": "executive-board",
+          "label": "Executive board",
+          "members": [
+            {
+              "name": "Patrick Göttsch, M.Sc.",
+              "role": "Chairman",
+              "study": "Energy Systems",
+              "github": "PatrickGoettsch",
+              "avatar": "/team/members/patrickgoettsch.png"
+            },
+            {
+              "name": "Pascal Loth, B.Sc.",
+              "role": "1st vice-chairman",
+              "study": "Computer Science and Engineering, Systems Engineering and Robotics",
+              "github": "ploth",
+              "avatar": "/team/members/ploth.png"
+            },
+            {
+              "name": "Lasse Peters, B.Sc.",
+              "role": "2nd vice-chairman",
+              "study": "Mechatronics, Intelligent Systems and Robotics",
+              "github": "lassepe",
+              "avatar": "/team/members/lassepe.png"
+            }
+          ]
+        },
+        {
+          "id": "leading-developers",
+          "label": "Leading developers",
+          "members": [
+            {
+              "name": "Felix Wege, B.Sc.",
+              "study": "Mechatronics, Intelligent Systems and Robotics",
+              "github": "felixwege",
+              "avatar": "/team/members/felixwege.png"
+            },
+            {
+              "name": "René Kost",
+              "study": "Computer Science",
+              "github": "rkost",
+              "avatar": "/team/members/rkost.png"
+            }
+          ]
+        },
+        {
+          "id": "developers",
+          "label": "Developers",
+          "members": [
+            {
+              "name": "Andrea Essig",
+              "study": "Mechatronics",
+              "github": "anesssi",
+              "avatar": "/team/members/anesssi.png"
+            },
+            {
+              "name": "Bennett Wetters",
+              "study": "Computer Science",
+              "github": "Bendodroid",
+              "avatar": "/team/members/bendodroid.png"
+            },
+            {
+              "name": "Chris Kahlefendt, M.Sc.",
+              "study": "Mechatronics, Intelligent Systems and Robotics",
+              "github": "kafendt",
+              "avatar": "/team/members/kafendt.png"
+            },
+            {
+              "name": "Darshana Adikari, B.Sc.",
+              "study": "Mechatronics, Intelligent Systems and Robotics",
+              "github": "tuxbotix",
+              "avatar": "/team/members/tuxbotix.png"
+            },
+            {
+              "name": "Ellahe Khosravi",
+              "study": "Computer Science and Engineering",
+              "github": "Sweellie",
+              "avatar": "/team/members/sweellie.png"
+            },
+            {
+              "name": "Erik Schröder, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "malterik",
+              "avatar": "/team/members/malterik.png"
+            },
+            {
+              "name": "Felix Warmuth, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "fwarmuth",
+              "avatar": "/team/members/fwarmuth.png"
+            },
+            {
+              "name": "Finn Poppinga, M.Sc.",
+              "study": "Electrical Engineering",
+              "github": "fpoppinga",
+              "avatar": "/team/members/fpoppinga.png"
+            },
+            {
+              "name": "Justus Basler",
+              "study": "General Engineering Science",
+              "github": "justusbasler",
+              "avatar": "/team/members/justusbasler.png"
+            },
+            {
+              "name": "Konrad Nölle",
+              "study": "Computer Science",
+              "github": "knoellle",
+              "avatar": "/team/members/knoellle.png"
+            },
+            {
+              "name": "Lasse Peters, B.Sc.",
+              "study": "Mechatronics, Intelligent Systems and Robotics",
+              "github": "lassepe",
+              "avatar": "/team/members/lassepe.png"
+            },
+            {
+              "name": "Martin Borchert",
+              "study": "Computer Science",
+              "github": "nanont",
+              "avatar": "/team/members/nanont.png"
+            },
+            {
+              "name": "Maximilian Schmidt",
+              "study": "Computer Science and Engineering",
+              "github": "schmidma",
+              "avatar": "/team/members/schmidma.png"
+            },
+            {
+              "name": "Mayra Sharif",
+              "study": "Computer Science",
+              "github": "MayraSha",
+              "avatar": "/team/members/mayrasha.png"
+            },
+            {
+              "name": "Nicolas Riebesel, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "nagua",
+              "avatar": "/team/members/nagua.jpg"
+            },
+            {
+              "name": "Pascal Gleske",
+              "study": "Computer Science",
+              "github": "PasGl",
+              "avatar": "/team/members/pasgl.png"
+            },
+            {
+              "name": "Pascal Loth, B.Sc.",
+              "study": "Computer Science and Engineering, Systems Engineering and Robotics",
+              "github": "ploth",
+              "avatar": "/team/members/ploth.png"
+            },
+            {
+              "name": "Thomas Schattschneider, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "TSchattschneider",
+              "avatar": "/team/members/tschattschneider.png"
+            },
+            {
+              "name": "Yuria Konda, B.Sc.",
+              "study": "Mechatronics",
+              "github": "ykonda",
+              "avatar": "/team/members/ykonda.png"
+            }
+          ]
+        },
+        {
+          "id": "organisation",
+          "label": "Organisation",
+          "members": [
+            {
+              "name": "Nathali Schmid, B.Sc.",
+              "study": "Process Engineering"
+            }
+          ]
+        },
+        {
+          "id": "supporters",
+          "label": "Supporters",
+          "members": [
+            {
+              "name": "Felix Gutzmann"
+            },
+            {
+              "name": "Florian Bergmann, B.Sc.",
+              "study": "General Engineering Science"
+            },
+            {
+              "name": "Georg Felbinger, M.Sc.",
+              "study": "Computer Science",
+              "github": "gfelbing",
+              "avatar": "/team/members/gfelbing.png"
+            },
+            {
+              "name": "Jan Plitzkow, M.Sc.",
+              "study": "Mechatronics",
+              "github": "janplitzkow",
+              "avatar": "/team/members/janplitzkow.jpg"
+            },
+            {
+              "name": "Robert Oehlmann, B.Sc.",
+              "study": "Computer Science",
+              "github": "robofish",
+              "avatar": "/team/members/robofish.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2018",
+      "label": "Team 2018 (Montréal, Canada)",
+      "photo": "/team/groups/robocup-2018.jpg",
+      "groups": [
+        {
+          "id": "executive-board",
+          "label": "Executive board",
+          "members": [
+            {
+              "name": "Patrick Göttsch, M.Sc.",
+              "role": "Chairman",
+              "study": "Energy Systems",
+              "github": "PatrickGoettsch",
+              "avatar": "/team/members/patrickgoettsch.png"
+            },
+            {
+              "name": "Pascal Loth, B.Sc.",
+              "role": "1st vice-chairman",
+              "study": "Computer Science and Engineering, Systems Engineering and Robotics",
+              "github": "ploth",
+              "avatar": "/team/members/ploth.png"
+            },
+            {
+              "name": "Lasse Peters, B.Sc.",
+              "role": "2nd vice-chairman",
+              "study": "Mechatronics, Intelligent Systems and Robotics",
+              "github": "lassepe",
+              "avatar": "/team/members/lassepe.png"
+            }
+          ]
+        },
+        {
+          "id": "leading-developers",
+          "label": "Leading developers",
+          "members": [
+            {
+              "name": "Georg Felbinger, B.Sc.",
+              "study": "Computer Science",
+              "github": "gfelbing",
+              "avatar": "/team/members/gfelbing.png"
+            },
+            {
+              "name": "Lasse Peters, B.Sc.",
+              "study": "Mechatronics, Intelligent Systems and Robotics",
+              "github": "lassepe",
+              "avatar": "/team/members/lassepe.png"
+            }
+          ]
+        },
+        {
+          "id": "developers",
+          "label": "Developers",
+          "members": [
+            {
+              "name": "Chris Kahlefendt, B.Sc.",
+              "study": "Mechatronics, Intelligent Systems and Robotics",
+              "github": "kafendt",
+              "avatar": "/team/members/kafendt.png"
+            },
+            {
+              "name": "Darshana Adikari, B.Sc.",
+              "study": "Mechatronics, Intelligent Systems and Robotics",
+              "github": "tuxbotix",
+              "avatar": "/team/members/tuxbotix.png"
+            },
+            {
+              "name": "Felix Warmuth, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "fwarmuth",
+              "avatar": "/team/members/fwarmuth.png"
+            },
+            {
+              "name": "Felix Wege, B.Sc.",
+              "study": "Mechatronics, Intelligent Systems and Robotics",
+              "github": "felixwege",
+              "avatar": "/team/members/felixwege.png"
+            },
+            {
+              "name": "Konrad Nölle",
+              "study": "Computer Science",
+              "github": "knoellle",
+              "avatar": "/team/members/knoellle.png"
+            },
+            {
+              "name": "Maximilian Schmidt",
+              "study": "Computer Science and Engineering",
+              "github": "schmidma",
+              "avatar": "/team/members/schmidma.png"
+            },
+            {
+              "name": "Nicolas Riebesel, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "nagua",
+              "avatar": "/team/members/nagua.jpg"
+            },
+            {
+              "name": "Pascal Gleske",
+              "study": "Computer Science",
+              "github": "PasGl",
+              "avatar": "/team/members/pasgl.png"
+            },
+            {
+              "name": "Pascal Loth, B.Sc.",
+              "study": "Computer Science and Engineering, Systems Engineering and Robotics",
+              "github": "ploth",
+              "avatar": "/team/members/ploth.png"
+            },
+            {
+              "name": "René Kost",
+              "study": "Computer Science and Engineering",
+              "github": "rkost",
+              "avatar": "/team/members/rkost.png"
+            },
+            {
+              "name": "Thomas Schattschneider, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "TSchattschneider",
+              "avatar": "/team/members/tschattschneider.png"
+            },
+            {
+              "name": "Yuria Konda, B.Sc.",
+              "study": "Mechatronics",
+              "github": "ykonda",
+              "avatar": "/team/members/ykonda.png"
+            }
+          ]
+        },
+        {
+          "id": "organisation",
+          "label": "Organisation",
+          "members": [
+            {
+              "name": "Finn Linzer, B.Sc.",
+              "study": "Geodetic Measurement Technology"
+            },
+            {
+              "name": "Nathali Schmid, B.Sc.",
+              "study": "Process Engineering"
+            },
+            {
+              "name": "Robert Oehlmann, B.Sc.",
+              "study": "Computer Science",
+              "github": "robofish",
+              "avatar": "/team/members/robofish.jpg"
+            },
+            {
+              "name": "Sören Lafendt, B.Sc.",
+              "study": "Medical Engineering"
+            },
+            {
+              "name": "Stephanie Albert, B.Sc.",
+              "study": "International Management and Engineering"
+            }
+          ]
+        },
+        {
+          "id": "supporters",
+          "label": "Supporters",
+          "members": [
+            {
+              "name": "Alexander Pitzer, M.Sc.",
+              "study": "Electrical Engineering",
+              "github": "lexxxel",
+              "avatar": "/team/members/lexxxel.png"
+            },
+            {
+              "name": "Erik Schröder, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "malterik",
+              "avatar": "/team/members/malterik.png"
+            },
+            {
+              "name": "Finn Poppinga, M.Sc.",
+              "study": "Electrical Engineering",
+              "github": "fpoppinga",
+              "avatar": "/team/members/fpoppinga.png"
+            },
+            {
+              "name": "Florian Bergmann, B.Sc.",
+              "study": "General Engineering Science"
+            },
+            {
+              "name": "Jan Plitzkow, M.Sc.",
+              "study": "Mechatronics",
+              "github": "janplitzkow",
+              "avatar": "/team/members/janplitzkow.jpg"
+            },
+            {
+              "name": "Jenny Bergmann, B.A."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2017",
+      "label": "Team 2017 (Nagoya, Japan)",
+      "photo": "/team/groups/robocup-2017.jpg",
+      "groups": [
+        {
+          "id": "executive-board",
+          "label": "Executive board",
+          "members": [
+            {
+              "name": "Patrick Göttsch, M.Sc.",
+              "role": "1st chairman",
+              "study": "Energy Systems",
+              "github": "PatrickGoettsch",
+              "avatar": "/team/members/patrickgoettsch.png"
+            },
+            {
+              "name": "Pascal Loth, B.Sc.",
+              "role": "2nd chairman",
+              "study": "Computer Science and Engineering",
+              "github": "ploth",
+              "avatar": "/team/members/ploth.png"
+            },
+            {
+              "name": "Nicolas Riebesel, B.Sc.",
+              "role": "3rd chairman Course of studies: \"Computer Science and Engineering\"",
+              "github": "nagua",
+              "avatar": "/team/members/nagua.jpg"
+            }
+          ]
+        },
+        {
+          "id": "leading-developers",
+          "label": "Leading developers",
+          "members": [
+            {
+              "name": "Arne Hasselbring",
+              "study": "Computer Science and Engineering",
+              "github": "ahasselbring",
+              "avatar": "/team/members/ahasselbring.jpg"
+            },
+            {
+              "name": "Lasse Peters",
+              "study": "Mechanical Engineering",
+              "github": "lassepe",
+              "avatar": "/team/members/lassepe.png"
+            },
+            {
+              "name": "Nicolas Riebesel, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "nagua",
+              "avatar": "/team/members/nagua.jpg"
+            }
+          ]
+        },
+        {
+          "id": "developers",
+          "label": "Developers",
+          "members": [
+            {
+              "name": "Finn Poppinga, M.Sc.",
+              "study": "Electrical Engineering",
+              "github": "fpoppinga",
+              "avatar": "/team/members/fpoppinga.png"
+            },
+            {
+              "name": "Alexander Pitzer, B.Sc.",
+              "study": "Electrical Engineering",
+              "github": "lexxxel",
+              "avatar": "/team/members/lexxxel.png"
+            },
+            {
+              "name": "Chris Kahlefendt, B.Sc.",
+              "study": "Mechatronics, Intelligent Systems and Robotics",
+              "github": "kafendt",
+              "avatar": "/team/members/kafendt.png"
+            },
+            {
+              "name": "Darshana Adikari, B.Sc.",
+              "study": "Mechatronics, Intelligent Systems and Robotics",
+              "github": "tuxbotix",
+              "avatar": "/team/members/tuxbotix.png"
+            },
+            {
+              "name": "Erik Schröder, M.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "malterik",
+              "avatar": "/team/members/malterik.png"
+            },
+            {
+              "name": "Felix Warmuth, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "fwarmuth",
+              "avatar": "/team/members/fwarmuth.png"
+            },
+            {
+              "name": "Felix Wege",
+              "study": "Mechatronics",
+              "github": "felixwege",
+              "avatar": "/team/members/felixwege.png"
+            },
+            {
+              "name": "Finn Linzer, B.Sc.",
+              "study": "Geodetic Measurement Technology",
+              "github": "finnlinxxx",
+              "avatar": "/team/members/finnlinxxx.png"
+            },
+            {
+              "name": "Georg Felbinger, B.Sc.",
+              "study": "Computer Science",
+              "github": "gfelbing",
+              "avatar": "/team/members/gfelbing.png"
+            },
+            {
+              "name": "René Kost",
+              "study": "Computer Science and Engineering",
+              "github": "rkost",
+              "avatar": "/team/members/rkost.png"
+            },
+            {
+              "name": "Robert Oehlmann, B.Sc.",
+              "study": "Computer Science",
+              "github": "robofish",
+              "avatar": "/team/members/robofish.jpg"
+            },
+            {
+              "name": "Sören Lafendt, B.Sc.",
+              "study": "Medical Engineering",
+              "github": "Lafendt",
+              "avatar": "/team/members/lafendt.png"
+            },
+            {
+              "name": "Thomas Schattschneider, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "TSchattschneider",
+              "avatar": "/team/members/tschattschneider.png"
+            },
+            {
+              "name": "Yuria Konda, B.Sc.",
+              "study": "Mechatronics",
+              "github": "ykonda",
+              "avatar": "/team/members/ykonda.png"
+            }
+          ]
+        },
+        {
+          "id": "marketing",
+          "label": "Marketing",
+          "members": [
+            {
+              "name": "Pascal Loth, B.Sc.",
+              "role": "Marketing team lead",
+              "study": "Computer Science and Engineering"
+            },
+            {
+              "name": "Jessica Mösler",
+              "study": "Technik und Management erneuerbare Energien und Energieeffizienz"
+            },
+            {
+              "name": "Nathali Schmid, B.Sc.",
+              "study": "Process Engineering"
+            },
+            {
+              "name": "Robert Oehlmann, B.Sc.",
+              "study": "Computer Science"
+            },
+            {
+              "name": "Stephanie Albert, B.Sc.",
+              "study": "International Management and Engineering"
+            },
+            {
+              "name": "Yuria Konda, B.Sc.",
+              "study": "Mechatronics"
+            }
+          ]
+        },
+        {
+          "id": "supporters",
+          "label": "Supporters",
+          "members": [
+            {
+              "name": "Florian Bergmann, B.Sc.",
+              "study": "General Engineering Science"
+            },
+            {
+              "name": "Jan Holste, M.Sc.",
+              "study": "Computational Informatics"
+            },
+            {
+              "name": "Jan Plitzkow, M.Sc.",
+              "study": "Mechatronics",
+              "github": "janplitzkow",
+              "avatar": "/team/members/janplitzkow.jpg"
+            },
+            {
+              "name": "Jenny Bergmann, B.A."
+            },
+            {
+              "name": "Stefan Wulf, M.Sc.",
+              "study": "Computational Informatics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2016",
+      "label": "Team 2016 (Leipzig, Germany)",
+      "photo": "/team/groups/robocup-2016.jpg",
+      "groups": [
+        {
+          "id": "executive-board",
+          "label": "Executive board",
+          "members": [
+            {
+              "name": "Patrick Göttsch, M.Sc.",
+              "role": "1st Chairman",
+              "study": "Energy Systems",
+              "github": "PatrickGoettsch",
+              "avatar": "/team/members/patrickgoettsch.png"
+            },
+            {
+              "name": "Robert Oehlmann, B.Sc.",
+              "role": "2nd chairman",
+              "study": "Computer Science",
+              "github": "robofish",
+              "avatar": "/team/members/robofish.jpg"
+            },
+            {
+              "name": "Jana Nissen, B.Sc.",
+              "role": "Treasurer",
+              "study": "Computer Science and Engineering",
+              "github": "jcnissen",
+              "avatar": "/team/members/jcnissen.jpg"
+            },
+            {
+              "name": "Jan Plitzkow, M.Sc.",
+              "role": "Transcript writer",
+              "study": "Computer Science and Engineering",
+              "github": "janplitzkow",
+              "avatar": "/team/members/janplitzkow.jpg"
+            }
+          ]
+        },
+        {
+          "id": "leading-developers",
+          "label": "Leading developers",
+          "members": [
+            {
+              "name": "Finn Poppinga, B.Sc.",
+              "study": "Electrical Engineering",
+              "github": "fpoppinga",
+              "avatar": "/team/members/fpoppinga.png"
+            },
+            {
+              "name": "Nicolas Riebesel, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "nagua",
+              "avatar": "/team/members/nagua.jpg"
+            },
+            {
+              "name": "Pascal Loth, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "ploth",
+              "avatar": "/team/members/ploth.png"
+            }
+          ]
+        },
+        {
+          "id": "developers",
+          "label": "Developers",
+          "members": [
+            {
+              "name": "Arne Hasselbring",
+              "study": "Computer Science and Engineering",
+              "github": "ahasselbring",
+              "avatar": "/team/members/ahasselbring.jpg"
+            },
+            {
+              "name": "Lasse Peters",
+              "study": "Mechanical Engineering",
+              "github": "lassepe",
+              "avatar": "/team/members/lassepe.png"
+            },
+            {
+              "name": "Alexander Pitzer, B.Sc.",
+              "study": "Electrical Engineering",
+              "github": "lexxxel",
+              "avatar": "/team/members/lexxxel.png"
+            },
+            {
+              "name": "Chris Kahlefendt, B.Sc.",
+              "study": "Mechatronics, Intelligent Systems and Robotics",
+              "github": "kafendt",
+              "avatar": "/team/members/kafendt.png"
+            },
+            {
+              "name": "Daan Büchner, B.Sc.",
+              "study": "Mechatronics",
+              "github": "daan",
+              "avatar": "/team/members/daan.png"
+            },
+            {
+              "name": "Erik Schröder, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "malterik",
+              "avatar": "/team/members/malterik.png"
+            },
+            {
+              "name": "Felix Warmuth, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "fwarmuth",
+              "avatar": "/team/members/fwarmuth.png"
+            },
+            {
+              "name": "Finn Linzer, B.Sc.",
+              "study": "Geodetic Measurement Technology",
+              "github": "finnlinxxx",
+              "avatar": "/team/members/finnlinxxx.png"
+            },
+            {
+              "name": "Florian Bergmann, B.Sc.",
+              "study": "General Engineering Science",
+              "github": "florianbergmann",
+              "avatar": "/team/members/florianbergmann.png"
+            },
+            {
+              "name": "Georg Felbinger, B.Sc.",
+              "study": "Computer Science",
+              "github": "gfelbing",
+              "avatar": "/team/members/gfelbing.png"
+            },
+            {
+              "name": "Olaf Lüders, B.Sc.",
+              "study": "Mechatronics",
+              "github": "nolueders",
+              "avatar": "/team/members/nolueders.png"
+            },
+            {
+              "name": "Oliver Tretau, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "otretau",
+              "avatar": "/team/members/otretau.png"
+            },
+            {
+              "name": "René Kost",
+              "study": "Computer Science and Engineering",
+              "github": "rkost",
+              "avatar": "/team/members/rkost.png"
+            },
+            {
+              "name": "Thomas Schattschneider, B.Sc.",
+              "study": "Computer Science and Engineering",
+              "github": "TSchattschneider",
+              "avatar": "/team/members/tschattschneider.png"
+            }
+          ]
+        },
+        {
+          "id": "marketing",
+          "label": "Marketing",
+          "members": [
+            {
+              "name": "Robert Oehlmann, B.Sc.",
+              "role": "Marketing team lead",
+              "study": "Computer Science"
+            },
+            {
+              "name": "Jana Nissen, B.Sc.",
+              "study": "Computer Science and Engineering"
+            },
+            {
+              "name": "Jan Plitzkow, M.Sc.",
+              "study": "Computer Science and Engineering"
+            },
+            {
+              "name": "Felix Gerking",
+              "study": "Mechatronics"
+            },
+            {
+              "name": "Florian Bergmann, B.Sc.",
+              "study": "General Engineering Science"
+            },
+            {
+              "name": "Jessica Mösler",
+              "study": "Technik und Management erneuerbare Energien und Energieeffizienz"
+            },
+            {
+              "name": "Maike Meier, B.Sc.",
+              "study": "Computer Science and Engineering"
+            },
+            {
+              "name": "Moritz Wittlinger",
+              "study": "Energy- and Environmental Engineering"
+            },
+            {
+              "name": "Pascal Loth, B.Sc.",
+              "study": "Computer Science and Engineering"
+            }
+          ]
+        },
+        {
+          "id": "supporters",
+          "label": "Supporters",
+          "members": [
+            {
+              "name": "Jan Holste, M.Sc.",
+              "study": "Computational Informatics"
+            },
+            {
+              "name": "Jenny Bergmann, B.A."
+            },
+            {
+              "name": "Stefan Wulf, M.Sc.",
+              "study": "Computational Informatics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2015",
+      "label": "Team 2015 (Hefei, China)",
+      "photo": "/team/groups/robocup-2015.jpg",
+      "groups": []
+    },
+    {
+      "year": "2014",
+      "label": "Team 2014 (João Pessoa, Brazil)",
+      "photo": "/team/groups/robocup-2014.jpg",
+      "groups": []
+    }
+  ]
+}

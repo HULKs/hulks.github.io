@@ -1,4 +1,17 @@
-*.swp
-.idea/
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.vscode/*
+.vscode/extensions.json
+.idea
+*.log
+.env
+.env.*
+!.env.example
+
+# Historical Jekyll development files
 .jekyll-cache
 _site
+*.swp

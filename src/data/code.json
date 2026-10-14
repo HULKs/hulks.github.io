@@ -1,0 +1,32 @@
+{
+  "intro": "We develop our robotics code publicly. Our open-source Rust framework powers perception, localization, behavior, and motion for our humanoid soccer robots. All sources are available on GitHub, together with documentation and seasonal releases that you can use as a starting point for your own projects.",
+  "github": {
+    "org": "HULKs",
+    "orgUrl": "https://github.com/HULKs",
+    "repo": "HULKs/hulk",
+    "repoUrl": "https://github.com/HULKs/hulk",
+    "language": "Rust",
+    "docsUrl": "https://hulks.de/hulk/",
+    "releasesUrl": "https://github.com/HULKs/hulk/tags"
+  },
+  "featuredRepos": [
+    {
+      "name": "hulk",
+      "description": "Our open-source robotics framework and tools for autonomous humanoid soccer, written in Rust.",
+      "url": "https://github.com/HULKs/hulk",
+      "language": "Rust"
+    },
+    {
+      "name": "nao-image-segmentation-dataset",
+      "description": "A RoboCup robot soccer image dataset with manual condition categories and representative segmentation masks.",
+      "url": "https://github.com/HULKs/nao-image-segmentation-dataset",
+      "language": "TeX"
+    },
+    {
+      "name": "hulks.github.io",
+      "description": "The HULKs website, including team rosters, publications, competition reports, and our GitHub Pages deployment.",
+      "url": "https://github.com/HULKs/hulks.github.io",
+      "language": "Vue"
+    }
+  ]
+}

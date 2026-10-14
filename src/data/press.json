@@ -1,0 +1,188 @@
+{
+  "intro": "Press coverage, interviews, and public appearances of the HULKs. For press enquiries, please reach out via e-mail. Our logo is available for download in multiple formats below.",
+  "pressContact": "hulks@tuhh.de",
+  "logos": {
+    "preview": "/logos/Wortbildmarke.png",
+    "downloads": [
+      { "format": "SVG", "url": "/logos/Wortbildmarke.svg" },
+      { "format": "PDF", "url": "/logos/Wortbildmarke.pdf" },
+      { "format": "PNG", "url": "/logos/Wortbildmarke.png" }
+    ]
+  },
+  "pressReview": [
+    {
+      "date": "2023-04-28",
+      "source": "sat1regional.de",
+      "title": "GORE 2023: Roboter treten bei Fußballturnier in Hamburg gegeneinander an",
+      "url": "https://www.sat1regional.de/gore-2023-roboter-treten-bei-fussballturnier-in-hamburg-gegeneinander-an/"
+    },
+    {
+      "date": "2023-04-24",
+      "source": "abendblatt.de",
+      "title": "Besonderes Fußballturnier im Desy: Roboter kicken um Titel",
+      "url": "https://www.abendblatt.de/hamburg/altona/article238220373/Besonderes-Fussball-Turnier-im-Desy-Roboter-kicken-um-Titel.html"
+    },
+    {
+      "date": "2022-04-17",
+      "source": "heise.de",
+      "title": "RoboCup German Open: B-Human gewinnt Finale gegen HTWK Leipzig",
+      "url": "https://www.heise.de/news/RoboCup-German-Open-B-Human-gewinnt-Finale-gegen-HTWK-Leipzig-6716299.html"
+    },
+    {
+      "date": "2022-04-16",
+      "source": "bild.de",
+      "title": "Robo-Tiki-Taka in der Handelskammer",
+      "url": "https://www.bild.de/regional/hamburg/hamburg-aktuell/harburger-bolzen-gegen-bremer-iren-und-italiener-robo-tiki-taka-in-der-handelska-79782376.bild.html"
+    },
+    {
+      "date": "2022-04-15",
+      "source": "heise.de",
+      "title": "RoboCup German Open wieder da – als verteiltes Turnier",
+      "url": "https://www.heise.de/news/RoboCup-German-Open-wieder-da-als-verteiltes-Turnier-6689464.html"
+    },
+    {
+      "date": "2019-04-25",
+      "source": "harburger-turnerbund.de",
+      "title": "Tag der offenen Tür 2019",
+      "url": "https://www.harburger-turnerbund.de/galerie/tdot2019/"
+    },
+    {
+      "date": "2019-04-16",
+      "source": "besser-im-blick.de",
+      "title": "Besucherrekord beim Tag der offenen Tür des HTB",
+      "url": "https://www.besser-im-blick.de/sport/6914-besucherrekord-beim-tag-der-offenen-tuer-des-htb"
+    },
+    {
+      "date": "2019-02-06",
+      "source": "hamburg-news.hamburg",
+      "title": "Humanoid Robotics: Step by step towards normality",
+      "url": "https://www.hamburg-news.hamburg/en/media-it/humanoid-robotics-step-step-towards-normality/"
+    },
+    {
+      "date": "2018-11-29",
+      "source": "zeit.de",
+      "title": "„Die Roboter spielen perfekte Pässe\"",
+      "url": "https://www.zeit.de/hamburg/2018-11/elbvertiefung-29-11-2018"
+    },
+    {
+      "date": "2018-11-24",
+      "source": "tuhh.de",
+      "title": "Mit Roboter-Fußball künstliche Intelligenz verstehen: RoHOW-Workshop an der TUHH",
+      "url": "https://intranet.tuhh.de/aktuell/pressemitteilung_einzeln.php?id=11844&Lang=de"
+    },
+    {
+      "date": "2018-09-19",
+      "source": "uniscene",
+      "title": "Studis arbeiten mit künstlicher Intelligenz",
+      "url": "https://issuu.com/uniscene/docs/uniscene_hamburg_5-2018/14"
+    },
+    {
+      "date": "2018-06-17",
+      "source": "abendblatt.de",
+      "title": "Fußball-WM der Roboter: Harburger wollen ins Halbfinale",
+      "url": "https://www.abendblatt.de/hamburg/article214610037/Fussball-WM-der-Roboter-Harburger-wollen-ins-Halbfinale.html"
+    },
+    {
+      "date": "2017-10-11",
+      "source": "business-people-magazin.de",
+      "title": "TUHH ist RoboCup-Weltmeister im Mixed Team in Japan",
+      "url": "http://www.business-people-magazin.de/newsgate/tuhh-ist-robocup-weltmeister-im-mixed-team-in-japan-17794/"
+    },
+    {
+      "date": "2017-08-08",
+      "source": "elbe-wochenblatt.de",
+      "title": "Weltmeister im Roboter-Fußball",
+      "url": "http://www.elbe-wochenblatt.de/harburg-city/kurzmeldungen/weltmeister-im-roboter-fussball-d46205.html"
+    },
+    {
+      "date": "2017-08-05",
+      "source": "abendblatt.de",
+      "title": "Roboter der TUHH sind Fußball-Weltmeister",
+      "url": "https://www.abendblatt.de/hamburg/harburg/article211472425/Roboter-der-TUHH-sind-Fussball-Weltmeister.html"
+    },
+    {
+      "date": "2017-08-03",
+      "source": "tuhh.de",
+      "title": "TUHH ist RoboCup-Weltmeister im Mixed Team in Japan",
+      "url": "https://intranet.tuhh.de/aktuell/pressemitteilung_einzeln.php?Lang=de&id=11196"
+    },
+    {
+      "date": "2017-07-06",
+      "source": "tuhh.de",
+      "title": "TUHH: Karl H. Ditze-Preis für herausragende Leistungen verliehen",
+      "url": "https://intranet.tuhh.de/aktuell/pressemitteilung_einzeln.php?id=11168&Lang=de"
+    },
+    {
+      "date": "2017-01-22",
+      "source": "svz.de",
+      "title": "Robo-Fußball in Groß Grabow",
+      "url": "https://www.svz.de/lokales/guestrower-anzeiger/robo-fussball-in-gross-grabow-id15904451.html"
+    },
+    {
+      "date": "2016-11-01",
+      "source": "abendblatt.de",
+      "title": "Roboter moderiert Dinner im Rathaus",
+      "url": "https://www.abendblatt.de/hamburg/article208626639/Erster-Roboter-haelt-Rede-im-Hamburger-Rathaus.html"
+    },
+    {
+      "date": "2015-07-06",
+      "source": "business-people-magazin.de",
+      "title": "Zu viel Licht bringt die HULKs durcheinander",
+      "url": "http://www.business-people-magazin.de/event/bericht/zu-viel-licht-bringt-die-hulks-durcheinander-1639/"
+    },
+    {
+      "date": "2015-04-08",
+      "source": "mopo.de",
+      "title": "An der TU Harburg spielt die Zukunft Fußball",
+      "url": "http://www.mopo.de/hamburg/studierende-stellen-ihre-tueftel-projekte-vor-an-der-tu-harburg-spielt-die-zukunft-fussball-1325736"
+    },
+    {
+      "date": "2015-01-17",
+      "source": "substanzmagazin.de",
+      "title": "Metall gegen Plastik: Das Roboter-Derby",
+      "url": "https://www.substanzmagazin.de/metall-gegen-plastik-das-roboter-derby/"
+    },
+    {
+      "date": "2014-07-30",
+      "source": "abendblatt.de",
+      "title": "HULKs bereit für die kommende RoboCup-WM in China",
+      "url": "https://www.abendblatt.de/hamburg/harburg/article130686591/HULKs-bereit-fuer-die-kommende-RoboCup-WM-in-China.html"
+    },
+    {
+      "date": "2014-07-21",
+      "source": "spiegel.de",
+      "title": "Wettstreit der Maschinen — Die RoboCup German Open",
+      "url": "http://www.spiegel.de/sptv/wissen/spiegel-tv-wissen-die-robocup-german-open-a-977338.html"
+    },
+    {
+      "date": "2014-04-25",
+      "source": "bild.de",
+      "title": "Die „Hulks\" trainieren für die Roboter-WM",
+      "url": "http://www.bild.de/regional/hamburg/roboter/hamburg-kickt-bei-wm-in-brasilien-35690070.bild.html"
+    },
+    {
+      "date": "2014-04-23",
+      "source": "tuhh.de",
+      "title": "Kick it like HULKs: TUHH-Roboter fahren zur Fußball-WM nach Brasilien",
+      "url": "https://intranet.tuhh.de/aktuell/pressemitteilung_einzeln.php?id=9384"
+    },
+    {
+      "date": "2014-03-28",
+      "source": "elbe-wochenblatt.de",
+      "title": "Diese Roboter können kicken",
+      "url": "http://www.elbe-wochenblatt.de/harburg/lokales/diese-roboter-koennen-kicken-d26326.html"
+    },
+    {
+      "date": "2014-01-23",
+      "source": "abendblatt.de",
+      "title": "Hulks wollen Weltmeister werden",
+      "url": "https://www.abendblatt.de/hamburg/harburg/article124128754/Hulks-wollen-Weltmeister-werden.html"
+    },
+    {
+      "date": "2014-01-23",
+      "source": "abendblatt.de",
+      "title": "TUHH-Studenten wollen zur Roboter-WM nach Brasilien",
+      "url": "https://www.abendblatt.de/hamburg/harburg/article124123468/TUHH-Studenten-wollen-zur-Roboter-WM-nach-Brasilien.html"
+    }
+  ]
+}

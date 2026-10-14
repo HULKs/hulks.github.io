@@ -1,0 +1,135 @@
+{
+  "name": "HULKs",
+  "fullName": "Hamburg Ultra Legendary Kickers",
+  "tagline": "Humanoid Robotics Research at TUHH",
+  "description": "We are a student research team at the Hamburg University of Technology (TUHH) competing in the RoboCup Humanoid Soccer League. Our robots run a fully open-source robotics framework written from scratch in Rust.",
+  "shortDescription": "Student research team programming humanoid soccer robots at TUHH.",
+  "founded": 2013,
+  "university": "Hamburg University of Technology (TUHH)",
+  "league": "RoboCup Humanoid Soccer League",
+  "location": {
+    "lab": "Schloßmühlendamm 30, Room 319 (3rd Floor)",
+    "city": "Hamburg",
+    "country": "Germany",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Schlo%C3%9Fm%C3%BChlendamm+30%2C+21073+Hamburg%2C+Germany"
+  },
+  "contact": {
+    "email": "hulks@tuhh.de",
+    "thesisEmail": "hulks@tuhh.de"
+  },
+  "socials": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/HULKs",
+      "handle": "HULKs"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/hulks_tuhh",
+      "handle": "@hulks_tuhh"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/company/hulks",
+      "handle": "hulks"
+    }
+  ],
+  "stats": [
+    {
+      "label": "Founded",
+      "value": "2013"
+    },
+    {
+      "label": "RoboCups",
+      "value": "12+"
+    },
+    {
+      "label": "Publications",
+      "value": "20+"
+    },
+    {
+      "label": "Open Source",
+      "value": "100%"
+    }
+  ],
+  "about": {
+    "eyebrow": "About us",
+    "title": "Hi, we're the HULKs!",
+    "paragraphs": [
+      "We are a team of students from the Hamburg University of Technology competing in the RoboCup Humanoid Soccer League, founded in 2013.",
+      "Our robots run a custom robotics framework written from scratch in Rust, and our development process and code is completely open.",
+      "Since 2026, we compete with the Booster K1 platform in the newly formed Humanoid Soccer League, following our transition from the NAO and the Standard Platform League.",
+      "Beyond the development of robotics code, we seek to make robotics, software engineering, and artificial intelligence more accessible to the public by hosting conferences, talks, and workshops. Since 2014 we run our own annual event — RoHOW."
+    ],
+    "sourceUrl": "https://hulks.de/"
+  },
+  "video": {
+    "title": "See our robots in action",
+    "youtubeId": "inK-uHyepuM"
+  },
+  "teamCarousel": {
+    "eyebrow": "The team",
+    "title": "The people behind the robots",
+    "description": "A rotating look at the students, alumni, and mentors that keep the HULKs running.",
+    "groups": [
+      "board",
+      "leads",
+      "team"
+    ]
+  },
+  "nav": [
+    {
+      "name": "Home",
+      "to": "/"
+    },
+    {
+      "name": "Code",
+      "to": "/code"
+    },
+    {
+      "name": "Team",
+      "to": "/team"
+    },
+    {
+      "name": "Publications",
+      "to": "/publications"
+    },
+    {
+      "name": "Meet",
+      "to": "/meet"
+    },
+    {
+      "name": "Sponsors",
+      "to": "/sponsors"
+    },
+    {
+      "name": "Press",
+      "to": "/press"
+    },
+    {
+      "name": "Contact",
+      "to": "/contact"
+    }
+  ],
+  "hero": {
+    "image": "/events/robocup-2026.jpg",
+    "alt": "The HULKs team with their Booster K1 at RoboCup 2026 in Incheon, South Korea.",
+    "caption": "Booster K1 · RoboCup 2026"
+  },
+  "imprint": {
+    "representatives": [
+      {
+        "name": "Lars Knäpper",
+        "role": "Vorsitzender"
+      },
+      {
+        "name": "Vivienne Schwabe",
+        "role": "stellv. Vorsitzende"
+      },
+      {
+        "name": "Luis Scheuch",
+        "role": "stellv. Vorsitzender"
+      }
+    ]
+  }
+}

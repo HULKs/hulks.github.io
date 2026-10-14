@@ -1,0 +1,439 @@
+{
+  "categories": [
+    {
+      "id": "papers",
+      "label": "Papers",
+      "items": [
+        {
+          "title": "Neural Network Architecture Search for Ball Detection Using a Distributed and Scalable Genetic Algorithm",
+          "authors": [
+            "Konrad Valentin Nölle",
+            "Hendrik Sieck",
+            "Pascal Gleske"
+          ],
+          "note": "Equal contribution: Nölle & Sieck",
+          "url": "/publications/Paper_Neural_Network_Architecture_Search_for_Ball_Detection_Using_a_Distributed_and_Scalable_Genetic_Algorithm.pdf"
+        }
+      ]
+    },
+    {
+      "id": "peer-review",
+      "label": "Peer-Reviewed Papers",
+      "items": [
+        {
+          "title": "Advancing Humanoid Robotics with Rust — An Open Framework for Runtime Efficiency",
+          "authors": [
+            "Maximilian Schmidt",
+            "Hendrik Sieck",
+            "Ole Felber",
+            "Konrad Valentin Nölle",
+            "Luis Scheuch",
+            "Patrick Göttsch"
+          ],
+          "url": "/publications/Paper_Advancing_Humanoid_Robotics_with_Rust_An_Open_Framework_for_Runtime_Efficiency.pdf"
+        },
+        {
+          "title": "Designing Convolutional Neural Networks Using a Genetic Approach for Ball Detection",
+          "authors": [
+            "Georg Christian Felbinger",
+            "Patrick Göttsch",
+            "Pascal Loth",
+            "Lasse Peters",
+            "Felix Wege"
+          ],
+          "url": "/publications/Paper_Designing_Convolutional_Neural_Networks_Using_a_Genetic_Approach_for_Ball_Detection.pdf"
+        }
+      ]
+    },
+    {
+      "id": "white-papers",
+      "label": "White Papers",
+      "items": [
+        {
+          "title": "Team Research Report — 2021",
+          "authors": [
+            "Andrea Essig",
+            "Pascal Gleske",
+            "Konrad Nölle",
+            "Maximilian Schmidt",
+            "Hendrik Sieck",
+            "Bennett Wetters"
+          ],
+          "year": 2021,
+          "url": "/publications/TRR_2021.pdf"
+        },
+        {
+          "title": "Team Research Report — 2019",
+          "authors": [
+            "Martin Borchert",
+            "Andrea Essig",
+            "Pascal Gleske",
+            "Chris Kahlefendt",
+            "Yuria Konda",
+            "René Kost",
+            "Konrad Nölle",
+            "Nicolas Riebesel",
+            "Maximilian Schmidt",
+            "Mayra Sharif",
+            "Felix Wege",
+            "Bennett Wetters"
+          ],
+          "year": 2019,
+          "url": "/publications/TRR_2019.pdf"
+        },
+        {
+          "title": "Team Research Report — 2018",
+          "authors": [
+            "Team HULKs"
+          ],
+          "year": 2018,
+          "url": "/publications/TRR_2018.pdf"
+        },
+        {
+          "title": "Team Research Report — 2017",
+          "authors": [
+            "Team HULKs"
+          ],
+          "year": 2017,
+          "url": "/publications/TRR_2017.pdf"
+        },
+        {
+          "title": "Team Description Paper — 2017",
+          "authors": [
+            "Nicolas Riebesel",
+            "Arne Hasselbring",
+            "Lasse Peters",
+            "Felix Wege",
+            "Chris Kahlefendt"
+          ],
+          "year": 2017,
+          "url": "/publications/TDP_2017.pdf"
+        },
+        {
+          "title": "Team Research Report — 2016",
+          "authors": [
+            "Team HULKs"
+          ],
+          "year": 2016,
+          "url": "/publications/TRR_2016.pdf"
+        },
+        {
+          "title": "Team Description Paper — 2016",
+          "authors": [
+            "Finn Poppinga",
+            "Patrick Göttsch",
+            "Arne Hasselbring",
+            "Finn Linzer",
+            "Pascal Loth",
+            "Thomas Schattschneider",
+            "Erik Schröder",
+            "Oliver Tretau"
+          ],
+          "year": 2016,
+          "url": "/publications/TDP_2016.pdf"
+        },
+        {
+          "title": "Team Research Report — 2014",
+          "authors": [
+            "Finn Poppinga",
+            "Florian Bergmann",
+            "Stefan Kaufmann"
+          ],
+          "year": 2014,
+          "url": "/publications/TRR_2014.pdf"
+        }
+      ]
+    },
+    {
+      "id": "posters",
+      "label": "Posters",
+      "items": [
+        {
+          "title": "Exploring Lightweight Data-Driven Methods for Image Segmentation in the RoboCup SPL",
+          "authors": [
+            "Franziska-Sophie Göttsch"
+          ],
+          "url": "/publications/Poster_Franziska-Sophie-Goettsch.pdf"
+        },
+        {
+          "title": "Advancing Humanoid Robotics with Rust — An Open Framework for Runtime Efficiency",
+          "authors": [
+            "Maximilian Schmidt",
+            "Hendrik Sieck",
+            "Ole Felber",
+            "Konrad Valentin Nölle",
+            "Luis Scheuch",
+            "Patrick Göttsch"
+          ],
+          "url": "/publications/Poster_Advancing_Humanoid_Robotics_with_Rust_An_Open_Framework_for_Runtime_Efficiency.pdf"
+        },
+        {
+          "title": "Contribution Poster — RoboCup 2019",
+          "authors": [
+            "Team HULKs"
+          ],
+          "url": "/publications/Poster_Contribution_Poster_RoboCup_2019.pdf"
+        },
+        {
+          "title": "Designing Convolutional Neural Networks Using a Genetic Approach for Ball Detection",
+          "authors": [
+            "Georg Christian Felbinger",
+            "Patrick Göttsch",
+            "Pascal Loth",
+            "Lasse Peters",
+            "Felix Wege"
+          ],
+          "url": "/publications/Poster_Designing_Convolutional_Neural_Networks_Using_a_Genetic_Approach_for_Ball_Detection.pdf"
+        },
+        {
+          "title": "Contribution Poster — RoboCup 2018",
+          "authors": [
+            "Team HULKs"
+          ],
+          "url": "/publications/Poster_Contribution_Poster_RoboCup_2018.pdf"
+        }
+      ]
+    }
+  ],
+  "theses": {
+    "legend": {
+      "BT": "Bachelor's thesis",
+      "PT": "Project thesis",
+      "MT": "Master's thesis",
+      "DT": "Diploma thesis"
+    },
+    "items": [
+      {
+        "kind": "PT",
+        "title": "Exploring Lightweight Data-Driven Methods for Image Segmentation in the RoboCup SPL",
+        "author": "Franziska-Sophie Göttsch",
+        "year": 2025,
+        "url": "/publications/PA_Franziska-Sophie-Goettsch.pdf"
+      },
+      {
+        "kind": "PT",
+        "title": "Sim-to-Real Transfer for Locomotion Tasks on Legged Robots: A Survey",
+        "author": "Luis Scheuch",
+        "year": 2025,
+        "url": "/publications/PA_Luis-Scheuch.pdf"
+      },
+      {
+        "kind": "PT",
+        "title": "Evaluating Model Predictive Control for Step Planning on Humanoid Robots in the RoboCup Standard Platform League",
+        "author": "Rasmus Mecklenburg",
+        "year": 2024,
+        "url": "/publications/PA_Rasmus_Mecklenburg.pdf"
+      },
+      {
+        "kind": "PT",
+        "title": "Metrics for Bipedal Walking of Humanoid Robots in RoboCup Standard Platform League",
+        "author": "Maik Marius Rebaum",
+        "year": 2024,
+        "url": "/publications/PA_Rebaum-Maik.pdf"
+      },
+      {
+        "kind": "PT",
+        "title": "Joint and Camera Calibration for NAO Robot",
+        "author": "Darshana Sanjeewan Adikari",
+        "year": 2019,
+        "url": "/publications/PA_Darshana-Adikari.pdf"
+      },
+      {
+        "kind": "MT",
+        "title": "Whistle Sound Source Localization Using Multiple NAO Robotic Systems",
+        "author": "Yuria Konda",
+        "year": 2019,
+        "url": "/publications/MA_Yuria_Konda.pdf"
+      },
+      {
+        "kind": "PT",
+        "title": "A Graph Based Path Planning Approach for the RoboCup Standard Platform League",
+        "author": "Felix Warmuth",
+        "year": 2019,
+        "url": "/publications/PA_Felix_Warmuth.pdf"
+      },
+      {
+        "kind": "BT",
+        "title": "Field Color Detection using Illumination Invariant Imaging in the RoboCup Standard Platform League",
+        "author": "Justus Basler",
+        "year": 2018,
+        "url": "/publications/BA_Justus-Basler.pdf"
+      },
+      {
+        "title": "Detektion von Feldmerkmalen auf dem NAO-Robotiksystem in der RoboCup Standard Platform League",
+        "author": "Pascal Loth",
+        "year": 2018,
+        "kind": "PT",
+        "url": "/publications/PA_Pascal-Loth.pdf"
+      },
+      {
+        "kind": "MT",
+        "title": "Optimal CNN Hyperparameters for Object Detection on NAO Robots",
+        "author": "Georg Felbinger",
+        "year": 2018,
+        "url": "/publications/MA_Georg-Felbinger.pdf"
+      },
+      {
+        "kind": "PT",
+        "title": "Center circle detection on the NAO robotic platform for the RoboCup Standard Platform League",
+        "author": "Nicolas Riebesel",
+        "year": 2018,
+        "url": "/publications/PA_Nicolas-Riebesel.pdf"
+      },
+      {
+        "kind": "BT",
+        "title": "Implementierung und Evaluation einer Pfeifendetektion für den NAO-Roboter",
+        "author": "Arne Hasselbring",
+        "year": 2017,
+        "url": "/publications/BA_Arne-Hasselbring.pdf"
+      },
+      {
+        "kind": "PT",
+        "title": "A genetic approach to design convolutional neural networks for a ball detection on the NAO robotic system",
+        "author": "Georg Felbinger",
+        "year": 2017,
+        "url": "/publications/PA_Georg-Felbinger.pdf"
+      },
+      {
+        "title": "Lokalisierung von Torpfosten bei variablen Hintergrundtexturen auf dem NAO Robotik System",
+        "author": "Niklas Hollstegge",
+        "year": 2017,
+        "kind": "PT",
+        "url": "/publications/PA_Niklas-Hollstegge.pdf"
+      },
+      {
+        "kind": "BT",
+        "title": "Adaption und Vergleich nichtlinearer Filtermethoden zur Selbstlokalisierung auf einem NAO",
+        "author": "Lasse Peters",
+        "year": 2017,
+        "url": "/publications/BA_Lasse-Peters.pdf"
+      },
+      {
+        "title": "A Comparison and Evaluation of Neural Network-based Classification Approaches for the Purpose of a Robot Detection on the Nao Robotic System",
+        "author": "Chris Kahlefendt",
+        "year": 2017,
+        "kind": "PT",
+        "url": "/publications/PA_Chris-Kahlefendt.pdf"
+      },
+      {
+        "kind": "BT",
+        "title": "Development and Implementation of a Dynamic Kick for the NAO Robotic System",
+        "author": "Felix Wege",
+        "year": 2017,
+        "url": "/publications/BA_Felix_Wege.pdf"
+      },
+      {
+        "kind": "MT",
+        "title": "Object Localization on the NAO Robotic System Using a Deep CNN and Image Contrast Based Approach",
+        "author": "Nathapon Olaf Lüders",
+        "year": 2016,
+        "url": "/publications/MA_Olaf_Lueders.pdf"
+      },
+      {
+        "kind": "PT",
+        "title": "Implementation and Evaluation of Audio Based Methods for Robust Inter-Robot Communication",
+        "author": "Finn Poppinga",
+        "year": 2016,
+        "url": "/publications/PA_Finn-Poppinga.pdf"
+      },
+      {
+        "kind": "PT",
+        "title": "Machine Learning in Context of Robot Soccer on the Humanoid NAO Robotic System",
+        "author": "Malte Erik Schröder",
+        "year": 2016,
+        "url": "/publications/PA_Erik-Schroder.pdf"
+      },
+      {
+        "title": "Fallbasiertes Schließen in startegischen Spielentscheidungen auf der NAO Robotik Plattform",
+        "author": "Carsten Hoppe",
+        "year": 2015,
+        "kind": "BT",
+        "url": ""
+      },
+      {
+        "kind": "BT",
+        "title": "Formbasierte Ballerkennung in Echtzeit auf dem humanoiden NAO-Robotiksystem",
+        "author": "Thomas Schattschneider",
+        "year": 2015,
+        "url": "/publications/BA_Thomas-Schattschneider.pdf"
+      },
+      {
+        "title": "Implementierung und Evaluation einer robusten Echtzeitkantendetektion auf dem humanoiden NAO-Robotiksystem",
+        "author": "Pascal Loth",
+        "year": 2015,
+        "kind": "BT",
+        "url": "/publications/BA_Pascal-Loth.pdf"
+      },
+      {
+        "title": "Design and Implementierung eines Regelungsverfahrens zur Stabilisierung eines humanoiden Roboters bei verschiedenen Bewegungsabläufen auf Basis des NAO-Robotiksystems",
+        "author": "Finn Poppinga",
+        "year": 2015,
+        "kind": "BT",
+        "url": "/publications/BA_Finn-Poppinga.pdf"
+      },
+      {
+        "title": "Acoustic Communication Between Two Robots Based on the NAO Robot System",
+        "author": "Florian Bergmann",
+        "year": 2015,
+        "kind": "BT",
+        "url": "/publications/BA_Florian-Bergmann.pdf"
+      },
+      {
+        "title": "Generierung von Laufbewegungen humanoider Roboter auf Basis des dreidimensionalen invertierten Pendelmodells",
+        "author": "Thomas Krähling",
+        "year": 2014,
+        "kind": "PT",
+        "url": ""
+      },
+      {
+        "title": "Modellierung und Regelung dynamischer Kickbewegungen humanoider Roboter auf Basis des NAO-Robotiksystems",
+        "author": "Olaf Lüders",
+        "year": 2013,
+        "kind": "BT",
+        "url": "/publications/BA_Olaf-Lueders.pdf"
+      },
+      {
+        "title": "Trajektorienvorhersage bewegter Objekte",
+        "author": "Keywan Zohrabi-Kalantari",
+        "year": 2013,
+        "kind": "BT",
+        "url": ""
+      },
+      {
+        "title": "Implementierung und Verfikation einer Selbstlokalisierung unter Verwendung der integrierten HD-Kameras des humanoiden NAO-Robotiksystems",
+        "author": "Andre Wurl",
+        "year": 2012,
+        "kind": "BT",
+        "url": ""
+      },
+      {
+        "title": "Individuelle Regelung der Steifigkeit von Schrittmotoren zur Reduzierung der Stromaufnahme humanoider Roboter auf Basis des NAO-Robotiksystems",
+        "author": "Felix Patschowski",
+        "year": 2012,
+        "kind": "BT",
+        "url": ""
+      },
+      {
+        "title": "Erkennung und Lokalisation nicht statischer Objekte durch digitale Bildverarbeitung unter Verwendung der integrierten HD-Kameras des NAO-Robotiksystems",
+        "author": "Oliver Tretau",
+        "year": 2012,
+        "kind": "BT",
+        "url": "/publications/BA_Oliver-Tretau.pdf"
+      },
+      {
+        "title": "Erkennung und Klassifizierung von Objekten zur Selbstlokalisierung durch digitale Bildverarbeitung unter Verwendung der integrierten HD-Kameras des NAO-Robotiksystems",
+        "author": "Nico Holst",
+        "year": 2012,
+        "kind": "BT",
+        "url": ""
+      },
+      {
+        "kind": "DT",
+        "title": "Implementierung und Analyse verschiedener Regelstrategien für dynamische Laufbewegungen humanoider Roboter",
+        "author": "Stefan Kaufmann",
+        "year": 2011,
+        "url": "/publications/DA_Stefan-Kaufmann.pdf"
+      }
+    ]
+  }
+}
