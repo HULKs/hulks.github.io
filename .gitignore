@@ -11,7 +11,4 @@ dist-ssr
 .env.*
 !.env.example
 
-# Historical Jekyll development files
-.jekyll-cache
-_site
 *.swp

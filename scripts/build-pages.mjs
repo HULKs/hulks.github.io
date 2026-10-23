@@ -1,5 +1,4 @@
-import { access, copyFile, cp, mkdir, readFile, readdir, writeFile } from "node:fs/promises";
-import { existsSync } from "node:fs";
+import { access, copyFile, mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 
 const site = JSON.parse(await readFile("src/data/site.json", "utf8"));
@@ -29,11 +28,6 @@ for (const [legacy, current] of Object.entries(legacyAssets)) {
   const target = join("dist", legacy.slice(1));
   await mkdir(dirname(target), { recursive: true });
   await copyFile(join("dist", current.slice(1)), target);
-}
-
-// The canonical repository retains legacy photos and assets for existing links.
-for (const folder of ["_photos", "_style", "_fonts", "_js"]) {
-  if (existsSync(folder)) await cp(folder, join("dist", folder), { recursive: true });
 }
 
 // Fail the build if any content refers to a missing local image or document.

@@ -15,13 +15,6 @@ const host = computed(() => {
   }
 });
 
-function hostname(url) {
-  try {
-    return new URL(url).host.replace(/^www\./, "");
-  } catch {
-    return url;
-  }
-}
 </script>
 
 <template>

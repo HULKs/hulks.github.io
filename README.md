@@ -55,11 +55,11 @@ Solange `npm run dev` läuft, sind Änderungen dank Hot Reload sofort im Browser
 
 Das Repository `HULKs/hulks.github.io` veröffentlicht die Seite über GitHub Pages. Jeder Push auf `main` startet `.github/workflows/deploy.yml`: Abhängigkeiten installieren, Vite bauen, lokale Bild- und PDF-Verweise prüfen und `dist/` im bestehenden Environment `github-pages` veröffentlichen. Pull Requests prüfen den Build, ohne zu veröffentlichen. Der Workflow kann auch manuell gestartet werden.
 
-Die Domain bleibt über die GitHub-Pages-Einstellungen und `public/CNAME` auf `hulks.de` konfiguriert. Das ursprüngliche Jekyll-Deployment wird durch den Vite-Workflow ersetzt.
+Die Domain bleibt über die GitHub-Pages-Einstellungen und `public/CNAME` auf `hulks.de` konfiguriert.
 
 `scripts/build-pages.mjs` erstellt HTML-Einstiegspunkte für alle Seiten und frühere Team-URLs, damit direkte Aufrufe bei GitHub Pages funktionieren. Team-Saisons sind über `/team?season=2026` verlinkbar; ältere URLs wie `/team/team2026.html` öffnen automatisch die passende Saison. Nicht vorhandene Seiten verwenden die Vue-404-Seite.
 
-`legacy-assets.json` ordnet die ursprünglichen `/_files/`-Downloads den Dateien unter `public/` zu. Vorhandene historische Asset-Ordner im Repository (`_photos`, `_style`, `_fonts`, `_js`) werden ebenfalls in den Build übernommen. Die alten Quellen bleiben für diese Links und als Archiv erhalten; die aktuellen Inhalte werden ausschließlich unter `src/data/` gepflegt.
+`legacy-assets.json` ordnet die ursprünglichen `/_files/`-Downloads den Dateien unter `public/` zu. Der Build erzeugt diese Download-Pfade aus den aktuellen Dateien; zusätzliche Archivkopien werden im Repository nicht benötigt. Alle verwendeten Bilder, Modelle und Dokumente liegen unter `public/`. Frühere Website-Versionen und entfernte Dateien sind über die Git-Historie verfügbar.
 
 ## Modell und Flaggen
 
