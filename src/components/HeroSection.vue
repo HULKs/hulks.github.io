@@ -4,13 +4,6 @@ import { Icon } from "@iconify/vue";
 import site from "@/data/site.json";
 import { enterUp, enterUpStaggered } from "@/motion/presets";
 
-// scroll to next section on click
-function scrollNext() {
-  window.scrollTo({
-    top: window.innerHeight,
-    behavior: "smooth",
-  });
-}
 </script>
 
 <template>
@@ -147,24 +140,5 @@ function scrollNext() {
       </figure>
     </div>
 
-    <!-- scroll down button -->
-    <button
-      v-motion="enterUp(1300)"
-      type="button"
-      class="absolute bottom-6 left-1/2 z-10 hidden -translate-x-1/2 flex-col items-center gap-2 text-ink-500 transition-colors hover:text-brand-600 sm:flex dark:text-ink-400 dark:hover:text-brand-400"
-      aria-label="Scroll to content"
-      @click="scrollNext"
-    >
-      <span class="font-mono text-[10px] uppercase tracking-[0.22em]"
-        >Scroll</span
-      >
-      <span
-        class="flex h-10 w-6 justify-center rounded-full border border-current pt-1.5"
-      >
-        <span
-          class="block h-2 w-1 animate-bounce rounded-full bg-current"
-        ></span>
-      </span>
-    </button>
   </section>
 </template>
