@@ -62,10 +62,10 @@ const hasMoreEvents = computed(() => events.length > EVENTS_INITIAL);
           :href="rohow.link"
           target="_blank"
           rel="noopener"
-          class="inline-flex items-center gap-2 rounded-lg bg-brand-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-brand-700 dark:bg-brand-500 dark:text-ink-950 dark:hover:bg-brand-400"
+          class="inline-flex items-center gap-1.5 text-sm text-brand-700 underline-offset-4 hover:underline dark:text-brand-300"
         >
           Visit RoHOW
-          <Icon icon="mdi:arrow-top-right" width="16" height="16" aria-hidden="true" />
+          <Icon icon="mdi:arrow-top-right" width="14" height="14" aria-hidden="true" />
         </a>
       </div>
 

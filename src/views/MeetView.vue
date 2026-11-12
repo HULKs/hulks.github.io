@@ -1,9 +1,13 @@
 <script setup>
+import { Icon } from "@iconify/vue";
 import SectionHeading from "@/components/SectionHeading.vue";
 import VideoEmbed from "@/components/VideoEmbed.vue";
 import meet from "@/data/meet.json";
+import events from "@/data/events.json";
 import site from "@/data/site.json";
 import { fadeUp } from "@/motion/presets";
+
+const rohow = events.find((event) => event.id === "rohow");
 </script>
 
 <template>
@@ -57,6 +61,38 @@ import { fadeUp } from "@/motion/presets";
         :key="video.youtubeId"
         :youtube-id="video.youtubeId"
         :title="video.title"
+      />
+    </div>
+  </section>
+
+  <section
+    v-if="rohow"
+    id="rohow"
+    v-reveal
+    aria-label="RoHOW"
+    class="scroll-mt-16 border-t border-ink-200 bg-ink-50 py-12 dark:border-ink-800 dark:bg-ink-900/40 sm:py-20"
+  >
+    <div class="mx-auto grid w-full max-w-6xl gap-8 px-4 sm:px-6 md:grid-cols-2 md:items-center lg:gap-12 lg:px-8">
+      <div class="space-y-5">
+        <SectionHeading eyebrow="Our event" :title="rohow.title" />
+        <p class="text-base text-ink-600 dark:text-ink-300">{{ rohow.summary }}</p>
+        <a
+          v-if="rohow.link"
+          :href="rohow.link"
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center gap-2 rounded-lg bg-brand-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-brand-700 dark:bg-brand-500 dark:text-ink-950 dark:hover:bg-brand-400"
+        >
+          Visit RoHOW
+          <Icon icon="mdi:arrow-top-right" width="16" height="16" aria-hidden="true" />
+        </a>
+      </div>
+      <img
+        v-if="rohow.image"
+        :src="rohow.image"
+        alt="Participants at the Robotic Hamburg Open Workshop at TUHH"
+        loading="lazy"
+        class="aspect-[3/2] w-full rounded-xl object-cover"
       />
     </div>
   </section>
