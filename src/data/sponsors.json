@@ -11,6 +11,12 @@
           "description": "Software consultancy specialised in Qt, C++, and 3D."
         },
         {
+          "name": "OpenAI",
+          "url": "https://openai.com/",
+          "logo": "/sponsors/openai.svg",
+          "description": "AI research and deployment company."
+        },
+        {
           "name": "cc.systems",
           "url": "https://cc.systems/",
           "logo": "/sponsors/cc_logo_blue.svg",
@@ -33,12 +39,6 @@
           "url": "https://www.haspa.de/de/home.html",
           "logo": "/sponsors/haspa.png",
           "description": "Hamburger Sparkasse."
-        },
-        {
-          "name": "Techniker Krankenkasse",
-          "url": "https://www.tk.de/",
-          "logo": "/sponsors/tk.png",
-          "description": "German statutory health insurance."
         }
       ]
     },

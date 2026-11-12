@@ -37,7 +37,7 @@ function gridClassesFor(tier) {
         />
       </div>
       <dl
-        class="lg:col-span-4 grid grid-cols-2 gap-4 rounded-2xl border border-ink-200 bg-white p-5 dark:border-ink-800 dark:bg-ink-900"
+        class="justify-self-start rounded-2xl border border-ink-200 bg-white p-5 dark:border-ink-800 dark:bg-ink-900 lg:col-span-4 lg:justify-self-end"
       >
         <div>
           <dt
@@ -49,21 +49,11 @@ function gridClassesFor(tier) {
             {{ totalSponsors }}
           </dd>
         </div>
-        <div>
-          <dt
-            class="font-mono text-[11px] uppercase tracking-widest text-ink-500 dark:text-ink-400"
-          >
-            Tiers
-          </dt>
-          <dd class="mt-1 font-display text-2xl font-bold">
-            {{ sponsors.tiers.length }}
-          </dd>
-        </div>
       </dl>
     </div>
   </section>
 
-  <!-- Tiers -->
+  <!-- Sponsor groups -->
   <section
     class="mx-auto w-full max-w-6xl space-y-12 px-4 pb-12 sm:space-y-16 sm:px-6 sm:pb-20 lg:px-8"
   >

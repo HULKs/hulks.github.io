@@ -66,3 +66,7 @@ Die Domain bleibt über die GitHub-Pages-Einstellungen und `public/CNAME` auf `h
 Das Booster-K1-Modell unter `public/models/booster-k1.glb` wurde aus den offiziellen [Booster-Robotics-Assets](https://github.com/BoosterRobotics/booster_assets) konvertiert. Herkunft und Version stehen in `booster-k1-source.json`, die BSD-3-Clause-Lizenz in `booster-k1-LICENSE.txt`. Der Vite-Build verwendet die fertige GLB-Datei und benötigt keine zusätzlichen Modellierungswerkzeuge.
 
 Die Flaggen werden aus `src/assets/country-flags.json` lokal eingebunden. Jede Saison in `team-history.json` hat dafür einen ISO-Ländercode unter `countryCode`. Die Icons stammen aus [flag-icons](https://github.com/lipis/flag-icons); die MIT-Lizenz liegt unter `public/licenses/flag-icons.txt`.
+
+## Sponsoren-Logos
+
+Das OpenAI-Wordmark unter `public/sponsors/openai.svg` stammt unverändert aus dem [offiziellen Logo-Paket](https://cdn.openai.com/brand/openai-logos.zip). OpenAI und das OpenAI-Logo sind Marken von OpenAI; es gelten die [Designrichtlinien](https://openai.com/brand/).
