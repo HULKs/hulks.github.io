@@ -15,6 +15,7 @@ import site from "@/data/site.json";
 import team from "@/data/team.json";
 
 const allSponsors = sponsors.tiers.flatMap((tier) => tier.sponsors);
+const rohow = events.find((event) => event.id === "rohow");
 
 const carouselMembers = computed(() => {
   const selectedIds = site.teamCarousel?.groups ?? [];
@@ -56,6 +57,16 @@ const hasMoreEvents = computed(() => events.length > EVENTS_INITIAL);
         >
           {{ paragraph }}
         </p>
+        <a
+          v-if="rohow?.link"
+          :href="rohow.link"
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center gap-2 rounded-lg bg-brand-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-brand-700 dark:bg-brand-500 dark:text-ink-950 dark:hover:bg-brand-400"
+        >
+          Visit RoHOW
+          <Icon icon="mdi:arrow-top-right" width="16" height="16" aria-hidden="true" />
+        </a>
       </div>
 
       <div class="lg:col-span-6">
