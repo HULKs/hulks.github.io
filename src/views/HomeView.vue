@@ -8,6 +8,7 @@ import EventCard from "@/components/EventCard.vue";
 import TeamCarousel from "@/components/TeamCarousel.vue";
 import VideoEmbed from "@/components/VideoEmbed.vue";
 import SponsorLogo from "@/components/SponsorLogo.vue";
+import PartnersSection from "@/components/PartnersSection.vue";
 import events from "@/data/events.json";
 import sponsors from "@/data/sponsors.json";
 import site from "@/data/site.json";
@@ -138,6 +139,7 @@ const hasMoreEvents = computed(() => events.length > EVENTS_INITIAL);
   <!-- Sponsors -->
   <section
     v-reveal
+    aria-label="Sponsors"
     class="border-y border-ink-200 bg-ink-50 py-12 dark:border-ink-800 dark:bg-ink-900/40 sm:py-20"
   >
     <div class="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
@@ -176,6 +178,8 @@ const hasMoreEvents = computed(() => events.length > EVENTS_INITIAL);
       </ul>
     </div>
   </section>
+
+  <PartnersSection />
 
   <!-- Find us -->
   <section v-reveal class="border-t border-ink-200 dark:border-ink-800">

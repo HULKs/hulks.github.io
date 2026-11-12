@@ -37,6 +37,8 @@ Alle Inhalte werden aus den Dateien in `src/data/` geladen.
 
 **`sponsors.json`** — Sponsoren der Seite `/sponsors`, gruppiert nach Stufen (Industry Partners, Supporters, Academic). Pro Sponsor: Name, Website, Logo (aus `public/sponsors/`) und optional eine Beschreibung.
 
+**`partners.json`** — Partner des Teams, getrennt von den Sponsoren. Der Abschnitt „Partners“ erscheint auf der Startseite und unterhalb der Sponsoren auf `/sponsors`. Pro Partner: Name, Website, Logo (aus `public/partners/`) und eine kurze Beschreibung.
+
 **`press.json`** — Inhalte der Presse-Seite: Einleitung, Presse-Kontakt, Logo-Downloads (SVG/PDF/PNG) und der Pressespiegel mit Datum, Quelle, Titel und Link zum Artikel.
 
 ## Inhalte pflegen
@@ -45,6 +47,7 @@ Alle Inhalte werden aus den Dateien in `src/data/` geladen.
 2. Bilder und PDFs in den passenden Unterordner von `public/` legen:
    - Team-Fotos → `public/team/members/` bzw. `public/team/groups/`
    - Sponsoren-Logos → `public/sponsors/`
+   - Partner-Logos → `public/partners/`
    - Logos → `public/logos/`
    - Publikations-PDFs → `public/publications/`
 3. Im JSON den Pfad absolut zum Web-Root angeben, z. B. `/team/members/max.jpg`.
@@ -67,6 +70,8 @@ Das Booster-K1-Modell unter `public/models/booster-k1.glb` wurde aus den offizie
 
 Die Flaggen werden aus `src/assets/country-flags.json` lokal eingebunden. Jede Saison in `team-history.json` hat dafür einen ISO-Ländercode unter `countryCode`. Die Icons stammen aus [flag-icons](https://github.com/lipis/flag-icons); die MIT-Lizenz liegt unter `public/licenses/flag-icons.txt`.
 
-## Sponsoren-Logos
+## Sponsoren- und Partner-Logos
 
 Das OpenAI-Wordmark unter `public/sponsors/openai.svg` stammt unverändert aus dem [offiziellen Logo-Paket](https://cdn.openai.com/brand/openai-logos.zip). OpenAI und das OpenAI-Logo sind Marken von OpenAI; es gelten die [Designrichtlinien](https://openai.com/brand/).
+
+Das DrohnenCup-Logo unter `public/partners/drohnencup.webp` stammt von der [DrohnenCup-Website](https://drohnencup.de/).

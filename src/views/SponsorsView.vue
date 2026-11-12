@@ -2,6 +2,7 @@
 import { computed } from "vue";
 import SectionHeading from "@/components/SectionHeading.vue";
 import SponsorLogo from "@/components/SponsorLogo.vue";
+import PartnersSection from "@/components/PartnersSection.vue";
 import ContactCta from "@/components/ContactCta.vue";
 import sponsors from "@/data/sponsors.json";
 import { fadeUp, fadeUpStaggered } from "@/motion/presets";
@@ -31,7 +32,7 @@ function gridClassesFor(tier) {
     <div class="grid gap-10 lg:grid-cols-12 lg:items-end">
       <div class="lg:col-span-8 space-y-4">
         <SectionHeading
-          eyebrow="Partners"
+          eyebrow="Support"
           title="Sponsors & Supporters"
           :description="sponsors.intro"
         />
@@ -43,7 +44,7 @@ function gridClassesFor(tier) {
           <dt
             class="font-mono text-[11px] uppercase tracking-widest text-ink-500 dark:text-ink-400"
           >
-            Partners
+            Sponsors
           </dt>
           <dd class="mt-1 font-display text-2xl font-bold">
             {{ totalSponsors }}
@@ -55,7 +56,8 @@ function gridClassesFor(tier) {
 
   <!-- Sponsor groups -->
   <section
-    class="mx-auto w-full max-w-6xl space-y-12 px-4 pb-12 sm:space-y-16 sm:px-6 sm:pb-20 lg:px-8"
+    aria-label="Sponsors"
+    class="mx-auto w-full max-w-6xl space-y-12 px-4 sm:space-y-16 sm:px-6 lg:px-8"
   >
     <div
       v-for="tier in sponsors.tiers"
@@ -88,6 +90,8 @@ function gridClassesFor(tier) {
       </div>
     </div>
   </section>
+
+  <PartnersSection />
 
   <!-- contact us -->
   <section
