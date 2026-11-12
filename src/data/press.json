@@ -1,14 +1,26 @@
 {
   "intro": "Press coverage, interviews, and public appearances of the HULKs. For press enquiries, please reach out via e-mail. Our logo is available for download in multiple formats below.",
   "pressContact": "hulks@tuhh.de",
-  "logos": {
-    "preview": "/logos/Wortbildmarke.png",
-    "downloads": [
-      { "format": "SVG", "url": "/logos/Wortbildmarke.svg" },
-      { "format": "PDF", "url": "/logos/Wortbildmarke.pdf" },
-      { "format": "PNG", "url": "/logos/Wortbildmarke.png" }
-    ]
-  },
+  "logos": [
+    {
+      "name": "HULKs Wortmark",
+      "preview": "/logos/WortbildmarkeHSL.png",
+      "downloads": [
+        { "format": "SVG", "url": "/logos/WortbildmarkeHSL.svg" },
+        { "format": "PDF", "url": "/logos/WortbildmarkeHSL.pdf" },
+        { "format": "PNG", "url": "/logos/WortbildmarkeHSL.png" }
+      ]
+    },
+    {
+      "name": "HULK contour",
+      "preview": "/logos/hulk-contour-v4c.png",
+      "downloads": [
+        { "format": "SVG", "url": "/logos/hulk-contour-v4c.svg" },
+        { "format": "PDF", "url": "/logos/hulk-contour-v4c.pdf" },
+        { "format": "PNG", "url": "/logos/hulk-contour-v4c.png" }
+      ]
+    }
+  ],
   "pressReview": [
     {
       "date": "2023-04-28",

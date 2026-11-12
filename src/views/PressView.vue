@@ -82,14 +82,16 @@ const groupedPress = computed(() => {
       description="Download the HULKs wordmark for editorial use. Please do not modify the logo."
     />
     <div
+      v-for="logo in press.logos"
+      :key="logo.name"
       class="mt-8 grid gap-6 rounded-xl border border-ink-200 bg-white p-4 sm:p-6 md:grid-cols-12 dark:border-ink-800 dark:bg-ink-900"
     >
       <div
         class="md:col-span-5 flex items-center justify-center rounded-lg bg-ink-50 p-5 sm:p-8 dark:bg-ink-950"
       >
         <img
-          :src="press.logos.preview"
-          :alt="`${press.logos.name} logo`"
+          :src="logo.preview"
+          :alt="`${logo.name} logo`"
           class="max-h-32 w-auto object-contain"
           loading="lazy"
         />
@@ -102,7 +104,7 @@ const groupedPress = computed(() => {
         </div>
         <div class="flex flex-wrap gap-3">
           <a
-            v-for="download in press.logos.downloads"
+            v-for="download in logo.downloads"
             :key="download.format"
             :href="download.url"
             target="_blank"
