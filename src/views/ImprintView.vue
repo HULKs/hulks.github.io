@@ -14,6 +14,14 @@ import { fadeUp, fadeUpStaggered } from "@/motion/presets";
       title="Impressum"
       description="Angaben gemäß § 5 TMG."
     />
+    <p class="mt-6 text-sm text-ink-600 dark:text-ink-300">
+      Dieses Impressum gilt auch für die Website
+      <a
+        class="text-brand-700 underline-offset-4 hover:underline dark:text-brand-300"
+        href="https://rohow.de/"
+        >rohow.de</a
+      >.
+    </p>
   </section>
 
   <section
