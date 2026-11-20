@@ -17,7 +17,7 @@
         },
         {
           "name": "Vivienne Schwabe, B.Sc.",
-          "study": "Computer Science and Engineering",
+          "study": "Computer Science in Engineering",
           "role": "Vice-chairwoman",
           "email": "vivienne@hulks.de",
           "github": "vivi-enne",
@@ -26,7 +26,7 @@
         },
         {
           "name": "Luis Scheuch, M.Sc.",
-          "study": "Computer Science and Engineering",
+          "study": "Computer Science in Engineering",
           "role": "Vice-chairman",
           "email": "luis@hulks.de",
           "github": "schluis",
@@ -42,14 +42,14 @@
       "members": [
         {
           "name": "Alexander Schmidt, B.Sc.",
-          "study": "Computer Science and Engineering",
+          "study": "Computer Science in Engineering",
           "github": "alexschmander",
           "avatar": "/team/members/alexschmander.jpg",
           "linkedin": "https://www.linkedin.com/in/alexander-schmidt-02980929b/"
         },
         {
           "name": "Rasmus Mecklenburg, M.Sc.",
-          "study": "Computer Science and Engineering",
+          "study": "Computer Science in Engineering",
           "github": "rmburg",
           "avatar": "/team/members/rmburg.jpg"
         }
@@ -76,14 +76,14 @@
         },
         {
           "name": "Franziska-Sophie Göttsch, M.Sc.",
-          "study": "Computer Science and Engineering",
+          "study": "Computer Science in Engineering",
           "github": "Franziska-Sophie",
           "avatar": "/team/members/franziska-sophie.jpg",
           "linkedin": "https://www.linkedin.com/in/franziska-sophie-g%C3%B6ttsch-448a73439/"
         },
         {
           "name": "Johannes Blum",
-          "study": "Computer Science and Engineering",
+          "study": "Computer Science in Engineering",
           "github": "pejotejo",
           "avatar": "/team/members/pejotejo.jpg",
           "linkedin": "https://www.linkedin.com/in/johannes-blum-324057373/"
@@ -102,7 +102,7 @@
         },
         {
           "name": "Maximilian Schmidt, M.Sc.",
-          "study": "Computer Science and Engineering",
+          "study": "Computer Science in Engineering",
           "github": "schmidma",
           "avatar": "/team/members/schmidma.png",
           "linkedin": "https://www.linkedin.com/in/maximilian-schmidt-899954370/"
@@ -116,7 +116,7 @@
         },
         {
           "name": "Ole Felber, M.Sc.",
-          "study": "Computer Science and Engineering",
+          "study": "Computer Science in Engineering",
           "github": "oleflb",
           "avatar": "/team/members/oleflb.jpg"
         },
@@ -128,14 +128,14 @@
         },
         {
           "name": "Paul Dargel, B.Sc.",
-          "study": "Computer Science and Engineering",
+          "study": "Computer Science in Engineering",
           "github": "paudar",
           "avatar": "/team/members/paudar.jpg",
           "linkedin": "https://www.linkedin.com/in/paul-dargel-2536a2248/"
         },
         {
           "name": "Phillip Kammradt",
-          "study": "Computer Science and Engineering",
+          "study": "Computer Science in Engineering",
           "github": "jackybloxx",
           "avatar": "/team/members/jackybloxx.jpg",
           "linkedin": "https://www.linkedin.com/in/phillip-kammradt-651432305/"
@@ -149,7 +149,7 @@
       "members": [
         {
           "name": "Erik Schröder, M.Sc.",
-          "study": "Computer Science and Engineering",
+          "study": "Computer Science in Engineering",
           "github": "malterik",
           "avatar": "/team/members/erik.jpg",
           "linkedin": "https://www.linkedin.com/in/erik-schr%C3%B6der-b428221b9/"
@@ -177,7 +177,7 @@
           "name": "Justus Basler, M.A.",
           "study": "General Engineering Science",
           "github": "justusbasler",
-          "avatar": "/team/members/justusbasler.png",
+          "avatar": "/team/members/justus-basler.png",
           "linkedin": "https://www.linkedin.com/in/justus-basler-0b69411aa/"
         },
         {
@@ -196,7 +196,7 @@
         },
         {
           "name": "Nicolas Riebesel, M.Sc.",
-          "study": "Computer Science and Engineering",
+          "study": "Computer Science in Engineering",
           "github": "nagua",
           "avatar": "/team/members/nagua.jpg",
           "linkedin": "https://www.linkedin.com/in/nicolas-riebesel-214201371/"
@@ -223,7 +223,7 @@
         },
         {
           "name": "Thomas Schattschneider, M.Sc.",
-          "study": "Computer Science and Engineering",
+          "study": "Computer Science in Engineering",
           "github": "TSchattschneider",
           "avatar": "/team/members/tschattschneider.png",
           "linkedin": "https://www.linkedin.com/in/schattschneider/"
