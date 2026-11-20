@@ -23,7 +23,7 @@ Alle Inhalte werden aus den Dateien in `src/data/` geladen.
 
 **`site.json`** — Grunddaten der Seite: Teamname, Beschreibung, Gründungsjahr, Adresse, Kontakt-E-Mails, Social-Media-Links, Statistiken für die Startseite, „Über uns“-Text, YouTube-Video, Navigation.
 
-**`team.json`** — Das aktuelle Team, gruppiert nach Rolle (Vorstand, Leads, Team). Pro Person: Name, Rolle, Studiengang, E-Mail, GitHub-Handle und Avatar-Bild.
+**`team.json`** — Das aktuelle Team, gruppiert nach Rolle (Vorstand, Leads, Team). Pro Person: Name, Rolle, Studiengang, E-Mail, GitHub-Handle und Avatar-Bild. Eine persönliche Website kann optional unter `homepage` hinterlegt werden; sie erscheint auf der Team-Seite neben den übrigen Kontaktlinks.
 
 **`team-history.json`** — Chronik vergangener Saisons mit Gruppenfoto und Mitgliedern pro Jahr. Wird auf der Team-Seite unterhalb des aktuellen Teams angezeigt.
 

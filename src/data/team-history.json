@@ -202,7 +202,8 @@
             },
             {
               "name": "Sven-Ole Voigt",
-              "avatar": null
+              "avatar": "/team/members/portrait_sven-ole_voigt.jpg",
+              "homepage": "http://sov.goettsch.hamburg:8010/index.php?lang=de"
             },
             {
               "name": "Thomas Schattschneider, M.Sc.",
@@ -469,7 +470,8 @@
             },
             {
               "name": "Sven-Ole Voigt",
-              "avatar": null
+              "avatar": "/team/members/portrait_sven-ole_voigt.jpg",
+              "homepage": "http://sov.goettsch.hamburg:8010/index.php?lang=de"
             },
             {
               "name": "Thomas Schattschneider, M.Sc.",
@@ -719,7 +721,9 @@
               "avatar": "/team/members/rkost.png"
             },
             {
-              "name": "Sven-Ole Voigt"
+              "name": "Sven-Ole Voigt",
+              "avatar": "/team/members/portrait_sven-ole_voigt.jpg",
+              "homepage": "http://sov.goettsch.hamburg:8010/index.php?lang=de"
             },
             {
               "name": "Thomas Schattschneider, M.Sc.",
@@ -989,7 +993,9 @@
               "avatar": "/team/members/rkost.png"
             },
             {
-              "name": "Sven-Ole Voigt"
+              "name": "Sven-Ole Voigt",
+              "avatar": "/team/members/portrait_sven-ole_voigt.jpg",
+              "homepage": "http://sov.goettsch.hamburg:8010/index.php?lang=de"
             },
             {
               "name": "Thomas Schattschneider, M.Sc.",
@@ -1229,7 +1235,9 @@
               "avatar": "/team/members/nagua.jpg"
             },
             {
-              "name": "Sven-Ole Voigt"
+              "name": "Sven-Ole Voigt",
+              "avatar": "/team/members/portrait_sven-ole_voigt.jpg",
+              "homepage": "http://sov.goettsch.hamburg:8010/index.php?lang=de"
             },
             {
               "name": "Thomas Schattschneider, M.Sc.",
@@ -1451,7 +1459,9 @@
               "avatar": "/team/members/nagua.jpg"
             },
             {
-              "name": "Sven-Ole Voigt"
+              "name": "Sven-Ole Voigt",
+              "avatar": "/team/members/portrait_sven-ole_voigt.jpg",
+              "homepage": "http://sov.goettsch.hamburg:8010/index.php?lang=de"
             },
             {
               "name": "Thomas Schattschneider, M.Sc.",
@@ -1696,6 +1706,11 @@
               "study": "Computer Science",
               "github": "robofish",
               "avatar": "/team/members/robofish.jpg"
+            },
+            {
+              "name": "Sven-Ole Voigt",
+              "avatar": "/team/members/portrait_sven-ole_voigt.jpg",
+              "homepage": "http://sov.goettsch.hamburg:8010/index.php?lang=de"
             }
           ]
         }
@@ -1910,6 +1925,11 @@
               "study": "Computer Science",
               "github": "robofish",
               "avatar": "/team/members/robofish.jpg"
+            },
+            {
+              "name": "Sven-Ole Voigt",
+              "avatar": "/team/members/portrait_sven-ole_voigt.jpg",
+              "homepage": "http://sov.goettsch.hamburg:8010/index.php?lang=de"
             }
           ]
         }
@@ -2106,6 +2126,11 @@
             },
             {
               "name": "Jenny Bergmann, B.A."
+            },
+            {
+              "name": "Sven-Ole Voigt",
+              "avatar": "/team/members/portrait_sven-ole_voigt.jpg",
+              "homepage": "http://sov.goettsch.hamburg:8010/index.php?lang=de"
             }
           ]
         }
@@ -2312,6 +2337,11 @@
             {
               "name": "Stefan Wulf, M.Sc.",
               "study": "Computational Informatics"
+            },
+            {
+              "name": "Sven-Ole Voigt",
+              "avatar": "/team/members/portrait_sven-ole_voigt.jpg",
+              "homepage": "http://sov.goettsch.hamburg:8010/index.php?lang=de"
             }
           ]
         }
@@ -2528,6 +2558,11 @@
             {
               "name": "Stefan Wulf, M.Sc.",
               "study": "Computational Informatics"
+            },
+            {
+              "name": "Sven-Ole Voigt",
+              "avatar": "/team/members/portrait_sven-ole_voigt.jpg",
+              "homepage": "http://sov.goettsch.hamburg:8010/index.php?lang=de"
             }
           ]
         }
@@ -2538,14 +2573,38 @@
       "label": "Team 2015 | Hefei, China",
       "countryCode": "cn",
       "photo": "/team/groups/robocup-2015.jpg",
-      "groups": []
+      "groups": [
+        {
+          "id": "supporters",
+          "label": "Supporters",
+          "members": [
+            {
+              "name": "Sven-Ole Voigt",
+              "avatar": "/team/members/portrait_sven-ole_voigt.jpg",
+              "homepage": "http://sov.goettsch.hamburg:8010/index.php?lang=de"
+            }
+          ]
+        }
+      ]
     },
     {
       "year": "2014",
       "label": "Team 2014 | João Pessoa, Brazil",
       "countryCode": "br",
       "photo": "/team/groups/robocup-2014.jpg",
-      "groups": []
+      "groups": [
+        {
+          "id": "supporters",
+          "label": "Supporters",
+          "members": [
+            {
+              "name": "Sven-Ole Voigt",
+              "avatar": "/team/members/portrait_sven-ole_voigt.jpg",
+              "homepage": "http://sov.goettsch.hamburg:8010/index.php?lang=de"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

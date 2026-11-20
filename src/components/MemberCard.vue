@@ -64,6 +64,17 @@ defineProps({
         {{ member.github }}
       </a>
       <a
+        v-if="member.homepage"
+        :href="member.homepage"
+        :aria-label="`${member.name}'s homepage`"
+        target="_blank"
+        rel="noopener"
+        class="inline-flex items-center gap-1 hover:text-brand-700 dark:hover:text-brand-300"
+      >
+        <Icon icon="mdi:web" width="14" height="14" aria-hidden="true" />
+        homepage
+      </a>
+      <a
         v-if="member.email"
         :href="`mailto:${member.email}`"
         class="inline-flex items-center gap-1 hover:text-brand-700 dark:hover:text-brand-300"

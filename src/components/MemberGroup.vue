@@ -27,7 +27,8 @@ defineProps({
       <span
         class="font-mono text-xs uppercase tracking-widest text-ink-500 dark:text-ink-400"
       >
-        {{ group.members.length }} members
+        {{ group.members.length }}
+        {{ group.members.length === 1 ? "member" : "members" }}
       </span>
     </div>
 
