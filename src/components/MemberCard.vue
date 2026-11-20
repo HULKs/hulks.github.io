@@ -64,6 +64,17 @@ defineProps({
         {{ member.github }}
       </a>
       <a
+        v-if="member.linkedin"
+        :href="member.linkedin"
+        :aria-label="`${member.name}'s LinkedIn profile`"
+        target="_blank"
+        rel="noopener"
+        class="inline-flex items-center gap-1 hover:text-brand-700 dark:hover:text-brand-300"
+      >
+        <Icon icon="mdi:linkedin" width="14" height="14" aria-hidden="true" />
+        LinkedIn
+      </a>
+      <a
         v-if="member.homepage"
         :href="member.homepage"
         :aria-label="`${member.name}'s homepage`"

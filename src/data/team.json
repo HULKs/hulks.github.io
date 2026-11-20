@@ -12,7 +12,8 @@
           "email": "larskna@hulks.de",
           "phone": "+49 152 33649110",
           "github": "larskna",
-          "avatar": "/team/members/larskna.jpg"
+          "avatar": "/team/members/larskna.jpg",
+          "linkedin": "https://www.linkedin.com/in/lars-kn%C3%A4pper-a4830932a/"
         },
         {
           "name": "Vivienne Schwabe, B.Sc.",
@@ -20,7 +21,8 @@
           "role": "Vice-chairwoman",
           "email": "vivienne@hulks.de",
           "github": "vivi-enne",
-          "avatar": "/team/members/vivi-enne.jpg"
+          "avatar": "/team/members/vivi-enne.jpg",
+          "linkedin": "https://www.linkedin.com/in/vivienne-schwabe-344468332/"
         },
         {
           "name": "Luis Scheuch, M.Sc.",
@@ -28,7 +30,8 @@
           "role": "Vice-chairman",
           "email": "luis@hulks.de",
           "github": "schluis",
-          "avatar": "/team/members/schluis.jpg"
+          "avatar": "/team/members/schluis.jpg",
+          "linkedin": "https://www.linkedin.com/in/luis-scheuch/"
         }
       ]
     },
@@ -41,7 +44,8 @@
           "name": "Alexander Schmidt, B.Sc.",
           "study": "Computer Science and Engineering",
           "github": "alexschmander",
-          "avatar": "/team/members/alexschmander.jpg"
+          "avatar": "/team/members/alexschmander.jpg",
+          "linkedin": "https://www.linkedin.com/in/alexander-schmidt-02980929b/"
         },
         {
           "name": "Rasmus Mecklenburg, M.Sc.",
@@ -66,7 +70,8 @@
           "name": "Damian Kemper, B.Sc.",
           "study": "Computer Science",
           "github": "CodeByDamianK",
-          "avatar": "/team/members/codebydamiank.png"
+          "avatar": "/team/members/codebydamiank.png",
+          "linkedin": "https://www.linkedin.com/in/damian-kemper/"
         },
         {
           "name": "Franziska-Sophie Göttsch, M.Sc.",
@@ -96,7 +101,8 @@
           "name": "Maximilian Schmidt, M.Sc.",
           "study": "Computer Science and Engineering",
           "github": "schmidma",
-          "avatar": "/team/members/schmidma.png"
+          "avatar": "/team/members/schmidma.png",
+          "linkedin": "https://www.linkedin.com/in/maximilian-schmidt-899954370/"
         },
         {
           "name": "Chanakarn Ariyanukooltorn (Mei), M.Sc.",
@@ -126,7 +132,8 @@
           "name": "Phillip Kammradt",
           "study": "Computer Science and Engineering",
           "github": "jackybloxx",
-          "avatar": "/team/members/jackybloxx.jpg"
+          "avatar": "/team/members/jackybloxx.jpg",
+          "linkedin": "https://www.linkedin.com/in/phillip-kammradt-651432305/"
         }
       ]
     },
@@ -139,7 +146,8 @@
           "name": "Erik Schröder, M.Sc.",
           "study": "Computer Science and Engineering",
           "github": "malterik",
-          "avatar": "/team/members/malterik.png"
+          "avatar": "/team/members/erik.jpg",
+          "linkedin": "https://www.linkedin.com/in/erik-schr%C3%B6der-b428221b9/"
         },
         {
           "name": "Finn Linzer, M.Sc.",
@@ -151,7 +159,8 @@
           "name": "Finn Poppinga, M.Sc.",
           "study": "Electrical Engineering",
           "github": "fpoppinga",
-          "avatar": "/team/members/fpoppinga.png"
+          "avatar": "/team/members/fpoppinga.png",
+          "linkedin": "https://www.linkedin.com/in/fpoppinga/"
         },
         {
           "name": "Jan Plitzkow, M.Sc.",
@@ -169,13 +178,15 @@
           "name": "Lasse Peters, M.Sc.",
           "study": "Mechatronics, Intelligent Systems and Robotics",
           "github": "lassepe",
-          "avatar": "/team/members/lassepe.png"
+          "avatar": "/team/members/lassepe.png",
+          "linkedin": "https://www.linkedin.com/in/lassepeters/"
         },
         {
           "name": "Maik Rebaum, M.Sc.",
           "study": "Computer Science",
           "github": "maikre",
-          "avatar": "/team/members/maikre.jpg"
+          "avatar": "/team/members/maikre.jpg",
+          "linkedin": "https://www.linkedin.com/in/maik-rebaum/"
         },
         {
           "name": "Nicolas Riebesel, M.Sc.",
@@ -187,13 +198,15 @@
           "name": "Patrick Göttsch, M.Sc.",
           "study": "Energy Systems",
           "github": "PatrickGoettsch",
-          "avatar": "/team/members/patrickgoettsch.png"
+          "avatar": "/team/members/patrickgoettsch.png",
+          "linkedin": "https://www.linkedin.com/in/patrick-g%C3%B6ttsch-a33a822b3/"
         },
         {
           "name": "René Kost",
           "study": "Computer Science",
           "github": "rkost",
-          "avatar": "/team/members/rkost.png"
+          "avatar": "/team/members/rkost.png",
+          "linkedin": "https://www.linkedin.com/in/ren%C3%A9-kost-aba5a9317/"
         },
         {
           "name": "Sven-Ole Voigt",
@@ -204,13 +217,15 @@
           "name": "Thomas Schattschneider, M.Sc.",
           "study": "Computer Science and Engineering",
           "github": "TSchattschneider",
-          "avatar": "/team/members/tschattschneider.png"
+          "avatar": "/team/members/tschattschneider.png",
+          "linkedin": "https://www.linkedin.com/in/schattschneider/"
         },
         {
           "name": "Yuria Konda, M.Sc.",
           "study": "Mechatronics",
           "github": "ykonda",
-          "avatar": "/team/members/ykonda.png"
+          "avatar": "/team/members/ykonda.png",
+          "linkedin": "https://www.linkedin.com/in/yuria-konda-458823202/"
         }
       ]
     }
