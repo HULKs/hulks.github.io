@@ -64,7 +64,8 @@
           "name": "Ben Sampaolo",
           "study": "Computer Science",
           "github": "BenSampaolo",
-          "avatar": "/team/members/bensampaolo.png"
+          "avatar": "/team/members/bensampaolo.png",
+          "linkedin": "https://www.linkedin.com/in/ben-sampaolo-52b1b6355/"
         },
         {
           "name": "Damian Kemper, B.Sc.",
@@ -77,13 +78,15 @@
           "name": "Franziska-Sophie Göttsch, M.Sc.",
           "study": "Computer Science and Engineering",
           "github": "Franziska-Sophie",
-          "avatar": "/team/members/franziska-sophie.jpg"
+          "avatar": "/team/members/franziska-sophie.jpg",
+          "linkedin": "https://www.linkedin.com/in/franziska-sophie-g%C3%B6ttsch-448a73439/"
         },
         {
           "name": "Johannes Blum",
           "study": "Computer Science and Engineering",
           "github": "pejotejo",
-          "avatar": "/team/members/pejotejo.jpg"
+          "avatar": "/team/members/pejotejo.jpg",
+          "linkedin": "https://www.linkedin.com/in/johannes-blum-324057373/"
         },
         {
           "name": "Julian Schuler, M.Sc.",
@@ -108,7 +111,8 @@
           "name": "Chanakarn Ariyanukooltorn (Mei), M.Sc.",
           "study": "Mechanical Engineering and Management",
           "github": "meiimoon",
-          "avatar": "/team/members/meiimoon.jpg"
+          "avatar": "/team/members/meiimoon.jpg",
+          "linkedin": "https://www.linkedin.com/in/chanakarn-ariyanukooltorn/"
         },
         {
           "name": "Ole Felber, M.Sc.",
@@ -126,7 +130,8 @@
           "name": "Paul Dargel, B.Sc.",
           "study": "Computer Science and Engineering",
           "github": "paudar",
-          "avatar": "/team/members/paudar.jpg"
+          "avatar": "/team/members/paudar.jpg",
+          "linkedin": "https://www.linkedin.com/in/paul-dargel-2536a2248/"
         },
         {
           "name": "Phillip Kammradt",
@@ -172,7 +177,8 @@
           "name": "Justus Basler, M.A.",
           "study": "General Engineering Science",
           "github": "justusbasler",
-          "avatar": "/team/members/justusbasler.png"
+          "avatar": "/team/members/justusbasler.png",
+          "linkedin": "https://www.linkedin.com/in/justus-basler-0b69411aa/"
         },
         {
           "name": "Lasse Peters, M.Sc.",
@@ -212,7 +218,8 @@
         {
           "name": "Prof. Dr.-Ing. Sven-Ole Voigt",
           "avatar": "/team/members/portrait_sven-ole_voigt.jpg",
-          "homepage": "http://sov.goettsch.hamburg:8010/index.php?lang=de"
+          "homepage": "http://sov.goettsch.hamburg:8010/index.php?lang=de",
+          "study": "Computer Science in Engineering"
         },
         {
           "name": "Thomas Schattschneider, M.Sc.",
